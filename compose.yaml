@@ -1,0 +1,93 @@
+# Development stack. Source is bind-mounted; vendor/ and node_modules/ live in named volumes.
+# Host ports come from .env (APP_PORT, VITE_PORT, MYSQL_FORWARD_PORT, REDIS_FORWARD_PORT).
+name: bi-ygk
+
+x-php: &php
+    build:
+        context: ./docker/php
+        args:
+            UID: ${UID:-1000}
+            GID: ${GID:-1000}
+    image: bi-ygk-dev
+    working_dir: /var/www/html
+    volumes:
+        - .:/var/www/html
+        - vendor:/var/www/html/vendor
+        - node_modules:/var/www/html/node_modules
+        - pnpm_store:/home/app/.pnpm-store
+    environment:
+        DB_HOST: mysql
+        DB_PORT: 3306
+        REDIS_HOST: redis
+        REDIS_PORT: 6379
+        npm_config_store_dir: /home/app/.pnpm-store
+    depends_on:
+        mysql:
+            condition: service_healthy
+        redis:
+            condition: service_healthy
+
+services:
+    app:
+        <<: *php
+        container_name: bi-ygk-app
+        command: php artisan serve --host=0.0.0.0 --port=8000
+        ports:
+            - '${APP_PORT}:8000'
+
+    vite:
+        <<: *php
+        container_name: bi-ygk-vite
+        # Vite listens on the same port inside and outside so the hot-file URL is reachable from the browser.
+        command: pnpm exec vp dev --host 0.0.0.0 --port ${VITE_PORT} --strictPort
+        environment:
+            DB_HOST: mysql
+            REDIS_HOST: redis
+            npm_config_store_dir: /home/app/.pnpm-store
+            VITE_DEV_SERVER_ORIGIN: http://localhost:${VITE_PORT}
+            CHOKIDAR_USEPOLLING: ${VITE_USE_POLLING:-false}
+        ports:
+            - '${VITE_PORT}:${VITE_PORT}'
+
+    mysql:
+        image: mysql:8.4
+        container_name: bi-ygk-mysql
+        environment:
+            MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
+            MYSQL_DATABASE: ${DB_DATABASE}
+            MYSQL_USER: ${DB_USERNAME}
+            MYSQL_PASSWORD: ${DB_PASSWORD}
+        volumes:
+            - mysql_data:/var/lib/mysql
+        ports:
+            - '127.0.0.1:${MYSQL_FORWARD_PORT}:3306'
+        healthcheck:
+            test:
+                [
+                    'CMD-SHELL',
+                    'mysqladmin ping -h 127.0.0.1 -uroot -p$$MYSQL_ROOT_PASSWORD --silent',
+                ]
+            interval: 5s
+            timeout: 5s
+            retries: 20
+
+    redis:
+        image: redis:7-alpine
+        container_name: bi-ygk-redis
+        command: redis-server --requirepass ${REDIS_PASSWORD} --save "" --appendonly no
+        ports:
+            - '127.0.0.1:${REDIS_FORWARD_PORT}:6379'
+        healthcheck:
+            test:
+                ['CMD-SHELL', 'redis-cli -a $$REDIS_PASSWORD ping | grep PONG']
+            interval: 5s
+            timeout: 3s
+            retries: 20
+        environment:
+            REDIS_PASSWORD: ${REDIS_PASSWORD}
+
+volumes:
+    mysql_data:
+    vendor:
+    node_modules:
+    pnpm_store:
