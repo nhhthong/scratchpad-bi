@@ -56,7 +56,7 @@ const current = computed(() =>
 </script>
 
 <template>
-    <div class="flex min-h-svh flex-col bg-muted/40">
+    <div class="flex h-svh flex-col bg-muted/40">
         <header
             class="sticky top-0 z-40 border-b-2 border-red-600 bg-zinc-950 text-white"
         >
@@ -155,7 +155,7 @@ const current = computed(() =>
             </div>
         </header>
 
-        <main class="flex-1 p-4 md:p-6">
+        <main class="min-h-0 flex-1 overflow-auto p-3 md:p-4">
             <slot />
         </main>
     </div>

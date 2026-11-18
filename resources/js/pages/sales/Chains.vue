@@ -5,7 +5,6 @@ import { useI18n } from 'vue-i18n';
 import AnimatedNumber from '@/components/shared/AnimatedNumber.vue';
 import TypewriterText from '@/components/shared/TypewriterText.vue';
 import MonthlySalesTable from '@/components/tables/MonthlySalesTable.vue';
-import SalesViewToolbar from '@/components/tables/SalesViewToolbar.vue';
 import ProductTargetTable from '@/components/tables/ProductTargetTable.vue';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
@@ -93,7 +92,7 @@ const href = () => stores().url;
 <template>
     <Head :title="t('sales.chains.title')" />
 
-    <div class="mx-auto flex max-w-[1600px] flex-col gap-6">
+    <div class="flex h-full min-h-0 flex-col gap-4">
         <div>
             <div class="flex items-center gap-2">
                 <h1 class="text-2xl font-semibold tracking-tight">
@@ -106,7 +105,7 @@ const href = () => stores().url;
             </p>
         </div>
 
-        <Tabs v-model="tab" class="gap-6">
+        <Tabs v-model="tab" class="min-h-0 flex-1 gap-4">
             <TabsList class="h-auto self-start">
                 <TabsTrigger value="oem" class="px-4 py-2">
                     <span class="flex flex-col items-start leading-tight">
@@ -130,7 +129,7 @@ const href = () => stores().url;
                 </TabsTrigger>
             </TabsList>
 
-            <TabsContent value="oem" class="flex flex-col gap-6">
+            <TabsContent value="oem" class="flex min-h-0 flex-col gap-4">
                 <div class="flex items-center gap-2 self-end">
                     <span class="text-sm text-muted-foreground">
                         {{ t('sales.chains.year') }}
@@ -195,11 +194,10 @@ const href = () => stores().url;
                 </section>
             </TabsContent>
 
-            <TabsContent value="target" class="flex flex-col gap-3">
+            <TabsContent value="target" class="flex min-h-0 flex-col gap-3">
                 <h2 class="text-lg font-medium">
                     {{ t('sales.chains.targetSection') }}
                 </h2>
-                <SalesViewToolbar unit-only />
                 <ProductTargetTable
                     :months="chains.months"
                     :total="productsTotal"

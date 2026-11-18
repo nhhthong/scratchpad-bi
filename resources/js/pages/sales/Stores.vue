@@ -41,7 +41,7 @@ const href = () => products().url;
 <template>
     <Head :title="t('sales.stores.title')" />
 
-    <div class="mx-auto flex max-w-[1600px] flex-col gap-6">
+    <div class="flex h-full min-h-0 flex-col gap-4">
         <div class="flex flex-col gap-2">
             <Button variant="ghost" size="sm" class="-ml-2 w-fit" as-child>
                 <Link :href="dashboard()">

@@ -1,8 +1,9 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n';
-import { Button } from '@/components/ui/button';
-import type { Metric, Unit } from '@/composables/useSalesView';
+import SegmentedControl from '@/components/shared/SegmentedControl.vue';
+import { Switch } from '@/components/ui/switch';
 import { useSalesView } from '@/composables/useSalesView';
+import type { Metric, Unit } from '@/composables/useSalesView';
 
 defineProps<{ unitOnly?: boolean }>();
 
@@ -14,22 +15,21 @@ const units: Unit[] = ['yen', 'thousand', 'million'];
 </script>
 
 <template>
-    <div class="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm">
-        <div class="flex items-center gap-2">
+    <div class="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm">
+        <div v-if="!unitOnly" class="flex items-center gap-2">
             <span class="text-muted-foreground">{{
                 t('sales.view.metric')
             }}</span>
-            <div class="flex gap-1">
-                <Button
-                    v-for="metric in metrics"
-                    :key="metric"
-                    size="sm"
-                    :variant="view.metric === metric ? 'default' : 'outline'"
-                    @click="view.metric = metric"
-                >
-                    {{ t(`sales.view.metrics.${metric}`) }}
-                </Button>
-            </div>
+            <SegmentedControl
+                v-model="view.metric"
+                :aria-label="t('sales.view.metric')"
+                :options="
+                    metrics.map((m) => ({
+                        value: m,
+                        label: t(`sales.view.metrics.${m}`),
+                    }))
+                "
+            />
         </div>
 
         <div
@@ -39,30 +39,23 @@ const units: Unit[] = ['yen', 'thousand', 'million'];
             <span class="text-muted-foreground">{{
                 t('sales.view.unit')
             }}</span>
-            <div class="flex gap-1">
-                <Button
-                    v-for="unit in units"
-                    :key="unit"
-                    size="sm"
-                    :variant="view.unit === unit ? 'default' : 'outline'"
-                    @click="view.unit = unit"
-                >
-                    {{ t(`sales.view.units.${unit}`) }}
-                </Button>
-            </div>
+            <SegmentedControl
+                v-model="view.unit"
+                :aria-label="t('sales.view.unit')"
+                :options="
+                    units.map((u) => ({
+                        value: u,
+                        label: t(`sales.view.units.${u}`),
+                    }))
+                "
+            />
         </div>
 
-        <div class="flex items-center gap-2">
+        <label v-if="!unitOnly" class="flex cursor-pointer items-center gap-2">
+            <Switch v-model="view.share" />
             <span class="text-muted-foreground">{{
                 t('sales.view.share')
             }}</span>
-            <Button
-                size="sm"
-                :variant="view.share ? 'default' : 'outline'"
-                @click="view.share = !view.share"
-            >
-                {{ view.share ? t('sales.view.on') : t('sales.view.off') }}
-            </Button>
-        </div>
+        </label>
     </div>
 </template>

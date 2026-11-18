@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { Link } from '@inertiajs/vue3';
 import { useI18n } from 'vue-i18n';
+import TrendBadge from '@/components/shared/TrendBadge.vue';
 import SalesViewToolbar from '@/components/tables/SalesViewToolbar.vue';
 import { ScrollArea, ScrollBar } from '@/components/ui/scroll-area';
 import {
@@ -12,7 +13,6 @@ import {
 } from '@/components/ui/table';
 import { useFormat } from '@/composables/useFormat';
 import { useSalesView } from '@/composables/useSalesView';
-import { toneText, yoyTone } from '@/lib/semantic';
 import type { SalesRow } from '@/types';
 
 const props = defineProps<{
@@ -50,20 +50,19 @@ const all = () => (props.total ? [props.total, ...props.rows] : props.rows);
 const isTotal = (index: number) => props.total !== undefined && index === 0;
 
 // Sticky cells must be opaque (no /alpha), or rows scrolling underneath show through.
-const headAlt = 'bg-[color-mix(in_oklab,var(--muted),var(--foreground)_6%)]';
 const head =
-    'h-10 px-3 text-xs font-medium whitespace-nowrap text-muted-foreground';
+    'h-10 bg-muted px-3 text-[13px] font-medium whitespace-nowrap text-foreground/70';
 const cell = 'px-3 py-2.5 text-right tabular-nums group-hover:bg-muted/70';
 const labelCell =
     'sticky z-10 bg-card px-3 py-2.5 shadow-[1px_0_0_0_var(--border)] group-hover:bg-muted';
 </script>
 
 <template>
-    <div class="flex flex-col gap-3">
+    <div class="flex min-h-0 flex-1 flex-col gap-3">
         <SalesViewToolbar />
 
         <ScrollArea
-            class="rounded-lg border bg-card [&>[data-slot=scroll-area-viewport]]:max-h-[70vh]"
+            class="min-h-72 flex-1 rounded-lg border bg-card [&>[data-slot=scroll-area-viewport]]:h-full"
         >
             <table
                 class="w-max min-w-full border-separate border-spacing-0 text-sm"
@@ -72,32 +71,32 @@ const labelCell =
                     <TableRow v-if="yoyHeader" class="hover:bg-transparent">
                         <TableHead
                             :colspan="hasSub ? 2 : 1"
-                            class="sticky left-0 z-30 border-b bg-muted shadow-[1px_0_0_0_var(--border)]"
+                            class="sticky left-0 z-30 border-b text-sm shadow-[1px_0_0_0_var(--border)]"
                             :class="head"
                         >
                             {{ t('sales.columns.yoy') }}
                         </TableHead>
                         <TableHead
                             v-if="showQty()"
-                            class="border-b border-l bg-muted text-right tabular-nums"
-                            :class="[head, toneText[yoyTone(yoyHeader.qty)]]"
+                            class="border-b border-l text-right"
+                            :class="head"
                         >
-                            {{ percent(yoyHeader.qty) }}
+                            <div class="flex justify-end">
+                                <TrendBadge :value="yoyHeader.qty" />
+                            </div>
                         </TableHead>
                         <TableHead
                             v-if="showAmount()"
-                            class="border-b bg-muted text-right tabular-nums"
-                            :class="[
-                                head,
-                                showQty() ? '' : 'border-l',
-                                toneText[yoyTone(yoyHeader.amount)],
-                            ]"
+                            class="border-b text-right"
+                            :class="[head, showQty() ? '' : 'border-l']"
                         >
-                            {{ percent(yoyHeader.amount) }}
+                            <div class="flex justify-end">
+                                <TrendBadge :value="yoyHeader.amount" />
+                            </div>
                         </TableHead>
                         <TableHead
                             :colspan="2"
-                            class="border-b bg-muted"
+                            class="border-b"
                             :class="head"
                         />
                         <TableHead
@@ -105,20 +104,18 @@ const labelCell =
                             :key="m"
                             :colspan="monthSpan()"
                             :title="t('sales.columns.yoyAmount')"
-                            class="border-b border-l text-center tabular-nums"
-                            :class="[
-                                head,
-                                i % 2 ? 'bg-muted' : headAlt,
-                                toneText[yoyTone(yoyHeader.monthly[i])],
-                            ]"
+                            class="border-b border-l text-center"
+                            :class="head"
                         >
-                            {{ percent(yoyHeader.monthly[i]) }}
+                            <div class="flex justify-center">
+                                <TrendBadge :value="yoyHeader.monthly[i]" />
+                            </div>
                         </TableHead>
                     </TableRow>
                     <TableRow class="hover:bg-transparent">
                         <TableHead
                             :rowspan="2"
-                            class="sticky left-0 z-30 min-w-52 border-b bg-muted"
+                            class="sticky left-0 z-30 min-w-52 border-b"
                             :class="head"
                         >
                             {{ labelHeader }}
@@ -126,7 +123,7 @@ const labelCell =
                         <TableHead
                             v-if="hasSub"
                             :rowspan="2"
-                            class="sticky left-52 z-30 min-w-32 border-b bg-muted shadow-[1px_0_0_0_var(--border)]"
+                            class="sticky left-52 z-30 min-w-32 border-b shadow-[1px_0_0_0_var(--border)]"
                             :class="head"
                         >
                             {{ subLabelHeader }}
@@ -135,17 +132,17 @@ const labelCell =
                             :colspan="
                                 2 + Number(showQty()) + Number(showAmount())
                             "
-                            class="border-b border-l bg-muted text-center"
+                            class="border-b border-l text-center"
                             :class="head"
                         >
                             {{ t('sales.columns.total') }}{{ unitLabel() }}
                         </TableHead>
                         <TableHead
-                            v-for="(m, i) in months"
+                            v-for="m in months"
                             :key="m"
                             :colspan="monthSpan()"
-                            class="border-b border-l text-center"
-                            :class="[head, i % 2 ? 'bg-muted' : headAlt]"
+                            class="border-b border-l text-center text-foreground"
+                            :class="head"
                         >
                             {{ month(m) }}
                         </TableHead>
@@ -153,46 +150,36 @@ const labelCell =
                     <TableRow class="hover:bg-transparent">
                         <TableHead
                             v-if="showQty()"
-                            class="border-b border-l bg-muted text-right"
+                            class="border-b border-l text-right"
                             :class="head"
                         >
                             {{ t('sales.columns.qty') }}
                         </TableHead>
                         <TableHead
                             v-if="showAmount()"
-                            class="border-b bg-muted text-right"
+                            class="border-b text-right"
                             :class="[head, showQty() ? '' : 'border-l']"
                         >
                             {{ t('sales.columns.amount') }}
                         </TableHead>
-                        <TableHead
-                            class="border-b bg-muted text-right"
-                            :class="head"
-                        >
+                        <TableHead class="border-b text-right" :class="head">
                             {{ t('sales.columns.share') }}
                         </TableHead>
-                        <TableHead
-                            class="border-b bg-muted text-right"
-                            :class="head"
-                        >
+                        <TableHead class="border-b text-right" :class="head">
                             {{ t('sales.columns.yoy') }}
                         </TableHead>
-                        <template v-for="(m, i) in months" :key="m">
+                        <template v-for="m in months" :key="m">
                             <TableHead
                                 v-if="showQty()"
                                 class="border-b border-l text-right"
-                                :class="[head, i % 2 ? 'bg-muted' : headAlt]"
+                                :class="head"
                             >
                                 {{ t('sales.columns.qty') }}
                             </TableHead>
                             <TableHead
                                 v-if="showAmount()"
                                 class="border-b text-right"
-                                :class="[
-                                    head,
-                                    i % 2 ? 'bg-muted' : headAlt,
-                                    showQty() ? '' : 'border-l',
-                                ]"
+                                :class="[head, showQty() ? '' : 'border-l']"
                             >
                                 {{ t('sales.columns.amount') }}
                             </TableHead>
@@ -201,7 +188,6 @@ const labelCell =
                                 class="border-b text-right"
                                 :class="[
                                     head,
-                                    i % 2 ? 'bg-muted' : headAlt,
                                     showQty() || showAmount() ? '' : 'border-l',
                                 ]"
                             >
@@ -277,25 +263,19 @@ const labelCell =
                             {{ percent(row.share) }}
                         </TableCell>
                         <TableCell
-                            class="min-w-20 border-b"
-                            :class="[
-                                cell,
-                                isTotal(index) ? 'bg-muted/60' : '',
-                                toneText[yoyTone(row.yoy)],
-                            ]"
+                            class="min-w-24 border-b"
+                            :class="[cell, isTotal(index) ? 'bg-muted/60' : '']"
                         >
-                            {{ percent(row.yoy) }}
+                            <div class="flex justify-end">
+                                <TrendBadge :value="row.yoy" />
+                            </div>
                         </TableCell>
 
                         <template v-for="(figure, i) in row.monthly" :key="i">
                             <TableCell
                                 v-if="showQty()"
                                 class="min-w-20 border-b border-l"
-                                :class="[
-                                    cell,
-                                    i % 2 ? 'bg-muted/30' : '',
-                                    negative(figure.qty),
-                                ]"
+                                :class="[cell, negative(figure.qty)]"
                             >
                                 {{ int(figure.qty) }}
                             </TableCell>
@@ -304,7 +284,6 @@ const labelCell =
                                 class="min-w-24 border-b"
                                 :class="[
                                     cell,
-                                    i % 2 ? 'bg-muted/30' : '',
                                     showQty() ? '' : 'border-l',
                                     negative(figure.amount),
                                 ]"
@@ -316,7 +295,6 @@ const labelCell =
                                 class="min-w-16 border-b text-muted-foreground"
                                 :class="[
                                     cell,
-                                    i % 2 ? 'bg-muted/30' : '',
                                     showQty() || showAmount() ? '' : 'border-l',
                                 ]"
                             >
