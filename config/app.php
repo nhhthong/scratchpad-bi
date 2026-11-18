@@ -78,9 +78,15 @@ return [
     |
     */
 
-    'locale' => env('APP_LOCALE', 'en'),
+    'locale' => env('APP_LOCALE', 'ja'),
 
     'fallback_locale' => env('APP_FALLBACK_LOCALE', 'en'),
+
+    /*
+    | Locales the UI can be switched to (Japanese is the default).
+    */
+
+    'supported_locales' => ['ja', 'en'],
 
     'faker_locale' => env('APP_FAKER_LOCALE', 'en_US'),
 

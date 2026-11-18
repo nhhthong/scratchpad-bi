@@ -1,7 +1,9 @@
 import { createInertiaApp } from '@inertiajs/vue3';
 import { initializeTheme } from '@/composables/useAppearance';
+import { i18n, initializeLocale, setLocale } from '@/i18n';
 import AppLayout from '@/layouts/AppLayout.vue';
 import AuthLayout from '@/layouts/AuthLayout.vue';
+import BiLayout from '@/layouts/BiLayout.vue';
 import SettingsLayout from '@/layouts/settings/Layout.vue';
 import { initializeFlashToast } from '@/lib/flashToast';
 
@@ -11,17 +13,22 @@ void createInertiaApp({
     title: (title) => (title ? `${title} - ${appName}` : appName),
     layout: (name) => {
         switch (true) {
-            case name === 'Welcome':
+            case name === 'auth/Login':
                 return null;
             case name.startsWith('auth/'):
                 return AuthLayout;
+            case name.startsWith('sales/'):
+                return BiLayout;
             case name.startsWith('settings/'):
-                return [AppLayout, SettingsLayout];
+                return [BiLayout, SettingsLayout];
             default:
                 return AppLayout;
         }
     },
-    withApp: (app) => {
+    withApp: (app, { page }) => {
+        app.use(i18n);
+        setLocale(String(page.props.locale ?? 'ja'));
+
         app.directive('focus', {
             mounted: (el: HTMLElement, shouldFocus) => {
                 if (shouldFocus.value !== false) {
@@ -40,3 +47,6 @@ initializeTheme();
 
 // This will listen for flash toast data from the server...
 initializeFlashToast();
+
+// This will keep the UI language in sync with the server locale...
+initializeLocale();

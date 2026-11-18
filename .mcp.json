@@ -11,10 +11,8 @@
             "command": "docker",
             "args": [
                 "compose",
-                "run",
-                "--rm",
+                "exec",
                 "-T",
-                "--no-deps",
                 "app",
                 "php",
                 "artisan",

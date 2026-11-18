@@ -1,0 +1,82 @@
+{
+    "common": {
+        "language": "言語"
+    },
+    "auth": {
+        "login": {
+            "title": "アカウントにログイン",
+            "description": "メールアドレスとパスワードを入力してください",
+            "email": "メールアドレス",
+            "emailPlaceholder": "email{'@'}example.com",
+            "password": "パスワード",
+            "forgotPassword": "パスワードをお忘れですか？",
+            "remember": "ログイン状態を保持する",
+            "submit": "ログイン"
+        }
+    },
+    "nav": {
+        "menu": "メニュー",
+        "menuDescription": "画面を選択してください",
+        "chains": "チェーン別売上",
+        "stores": "店舗別売上",
+        "products": "商品別売上",
+        "settings": "設定",
+        "logout": "ログアウト"
+    },
+    "sales": {
+        "mock": "モックデータ",
+        "chains": {
+            "title": "チェーン別売上",
+            "subtitle": "OEM別・チェーン店別の月次売上",
+            "year": "対象年",
+            "chainsSection": "チェーン店別 月次売上",
+            "targetSection": "2026年 商品別 目標と実績"
+        },
+        "stores": {
+            "title": "店舗別売上",
+            "subtitle": "{chain} の店舗別 月次売上",
+            "back": "チェーン別に戻る"
+        },
+        "products": {
+            "title": "商品別売上",
+            "subtitle": "{store} の種別・規格別 月次売上",
+            "back": "店舗別に戻る"
+        },
+        "kpi": {
+            "qty": "売上数量",
+            "amount": "売上金額",
+            "yoyQty": "昨対(数量)",
+            "yoyAmount": "昨対(金額)",
+            "yenSuffix": "円"
+        },
+        "columns": {
+            "chain": "チェーン店",
+            "store": "店舗",
+            "type": "種別",
+            "spec": "規格",
+            "product": "商品",
+            "qty": "数量",
+            "amount": "金額",
+            "share": "比率",
+            "yoy": "昨対",
+            "total": "合計",
+            "targetQty": "目標数量",
+            "achievement": "達成率",
+            "prevQty": "前年数量"
+        },
+        "view": {
+            "metric": "表示項目",
+            "unit": "単位",
+            "metrics": {
+                "amount": "金額",
+                "qty": "数量",
+                "both": "両方"
+            },
+            "units": {
+                "yen": "円",
+                "thousand": "千円",
+                "million": "百万円"
+            }
+        }
+    }
+}

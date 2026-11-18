@@ -23,7 +23,7 @@ COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
 RUN (getent group ${GID} || groupadd -g ${GID} app) \
     && useradd -m -u ${UID} -g ${GID} -s /bin/bash app \
-    && mkdir -p /var/www/html/vendor /var/www/html/node_modules /home/app/.pnpm-store \
+    && mkdir -p /var/www/html /home/app/.pnpm-store /home/app/.cache \
     && chown -R ${UID}:${GID} /var/www/html /home/app
 
 WORKDIR /var/www/html

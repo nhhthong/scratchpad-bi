@@ -16,7 +16,7 @@
 
 ## 5. Chạy lệnh trong Docker
 
-- Không chạy `php`, `composer`, `pnpm` trên host (không có `vendor/`, `node_modules/`). Dùng `docker compose exec app php artisan ...` và `docker compose exec vite pnpm run <script>`. Khi tài liệu ghi `php artisan ...`, vẫn thêm tiền tố này.
+- Không chạy `php`, `composer`, `pnpm` trên host (`vendor/` và `node_modules/` do container cài, đúng phiên bản). Dùng `docker compose exec app php artisan ...` và `docker compose exec app pnpm run <script>` (hoặc `make test`, `make check`, `make types`). Khi tài liệu ghi `php artisan ...`, vẫn thêm tiền tố này.
 
 ## 6. Xác thực dữ liệu bằng truy vấn Docker trước khi đánh giá
 

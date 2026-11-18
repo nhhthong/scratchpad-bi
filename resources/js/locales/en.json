@@ -1,0 +1,82 @@
+{
+    "common": {
+        "language": "Language"
+    },
+    "auth": {
+        "login": {
+            "title": "Log in to your account",
+            "description": "Enter your email and password below to log in",
+            "email": "Email address",
+            "emailPlaceholder": "email{'@'}example.com",
+            "password": "Password",
+            "forgotPassword": "Forgot your password?",
+            "remember": "Remember me",
+            "submit": "Log in"
+        }
+    },
+    "nav": {
+        "menu": "Menu",
+        "menuDescription": "Choose a screen",
+        "chains": "Sales by chain",
+        "stores": "Sales by store",
+        "products": "Sales by product",
+        "settings": "Settings",
+        "logout": "Log out"
+    },
+    "sales": {
+        "mock": "Mock data",
+        "chains": {
+            "title": "Sales by chain",
+            "subtitle": "Monthly sales by OEM and chain store",
+            "year": "Year",
+            "chainsSection": "Monthly sales by chain store",
+            "targetSection": "2026 target vs actual by product"
+        },
+        "stores": {
+            "title": "Sales by store",
+            "subtitle": "Monthly sales by store for {chain}",
+            "back": "Back to chains"
+        },
+        "products": {
+            "title": "Sales by product",
+            "subtitle": "Monthly sales by type and spec for {store}",
+            "back": "Back to stores"
+        },
+        "kpi": {
+            "qty": "Quantity",
+            "amount": "Amount",
+            "yoyQty": "YoY (qty)",
+            "yoyAmount": "YoY (amount)",
+            "yenSuffix": "JPY"
+        },
+        "columns": {
+            "chain": "Chain",
+            "store": "Store",
+            "type": "Type",
+            "spec": "Spec",
+            "product": "Product",
+            "qty": "Qty",
+            "amount": "Amount",
+            "share": "Share",
+            "yoy": "YoY",
+            "total": "Total",
+            "targetQty": "Target qty",
+            "achievement": "Achievement",
+            "prevQty": "Prev. year qty"
+        },
+        "view": {
+            "metric": "Show",
+            "unit": "Unit",
+            "metrics": {
+                "amount": "Amount",
+                "qty": "Quantity",
+                "both": "Both"
+            },
+            "units": {
+                "yen": "JPY",
+                "thousand": "JPY thousand",
+                "million": "JPY million"
+            }
+        }
+    }
+}

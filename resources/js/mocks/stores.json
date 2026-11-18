@@ -1,0 +1,3469 @@
+{
+    "chain": "ｷｬｽﾃｨﾝｸﾞ",
+    "months": [
+        "2026-01",
+        "2026-02",
+        "2026-03",
+        "2026-04",
+        "2026-05",
+        "2026-06",
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10",
+        "2026-11",
+        "2026-12"
+    ],
+    "total": {
+        "name": "総計",
+        "qty": 100812,
+        "amount": 101182387,
+        "share": 0,
+        "yoy": null,
+        "monthly": [
+            {
+                "qty": 12400,
+                "amount": 11499919,
+                "share": 0.1137
+            },
+            {
+                "qty": 2916,
+                "amount": 2606730,
+                "share": 0.0258
+            },
+            {
+                "qty": 15865,
+                "amount": 17253121,
+                "share": 0.1705
+            },
+            {
+                "qty": 20977,
+                "amount": 20357910,
+                "share": 0.2012
+            },
+            {
+                "qty": 5760,
+                "amount": 5423375,
+                "share": 0.0536
+            },
+            {
+                "qty": 7403,
+                "amount": 7744230,
+                "share": 0.0765
+            },
+            {
+                "qty": 15783,
+                "amount": 18040262,
+                "share": 0.1783
+            },
+            {
+                "qty": 122292,
+                "amount": 10896912,
+                "share": 0.1077
+            },
+            {
+                "qty": 43130,
+                "amount": 7214214,
+                "share": 0.0713
+            },
+            {
+                "qty": 0,
+                "amount": 0,
+                "share": 0
+            },
+            {
+                "qty": 0,
+                "amount": 0,
+                "share": 0
+            },
+            {
+                "qty": 0,
+                "amount": 0,
+                "share": 0
+            }
+        ]
+    },
+    "rows": [
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ 本部倉庫（002）",
+            "qty": 13476,
+            "amount": 11621156,
+            "share": 0,
+            "yoy": null,
+            "monthly": [
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 1752,
+                    "amount": 1428124,
+                    "share": 0
+                },
+                {
+                    "qty": 1381,
+                    "amount": 1299840,
+                    "share": 0
+                },
+                {
+                    "qty": 1231,
+                    "amount": 1252656,
+                    "share": 0
+                },
+                {
+                    "qty": 3948,
+                    "amount": 3727924,
+                    "share": 0
+                },
+                {
+                    "qty": 5164,
+                    "amount": 3912612,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ ｵﾝﾗｲﾝｽﾄｱ（004）",
+            "qty": 4931,
+            "amount": 7596975,
+            "share": 0,
+            "yoy": 47.0,
+            "monthly": [
+                {
+                    "qty": 47,
+                    "amount": 64278,
+                    "share": 0.0056
+                },
+                {
+                    "qty": 11,
+                    "amount": 11700,
+                    "share": 0
+                },
+                {
+                    "qty": 450,
+                    "amount": 712949,
+                    "share": 0
+                },
+                {
+                    "qty": 68,
+                    "amount": 86540,
+                    "share": 0
+                },
+                {
+                    "qty": 83,
+                    "amount": 111121,
+                    "share": 0
+                },
+                {
+                    "qty": 117,
+                    "amount": 202161,
+                    "share": 0
+                },
+                {
+                    "qty": 3244,
+                    "amount": 5177759,
+                    "share": 0
+                },
+                {
+                    "qty": 125,
+                    "amount": 232552,
+                    "share": 0
+                },
+                {
+                    "qty": 786,
+                    "amount": 997915,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ 岩槻ｲﾝﾀｰ店",
+            "qty": 3755,
+            "amount": 4223152,
+            "share": 0,
+            "yoy": 375.0,
+            "monthly": [
+                {
+                    "qty": 375,
+                    "amount": 354186,
+                    "share": 0.0308
+                },
+                {
+                    "qty": 104,
+                    "amount": 107816,
+                    "share": 0
+                },
+                {
+                    "qty": 1026,
+                    "amount": 1223490,
+                    "share": 0
+                },
+                {
+                    "qty": 642,
+                    "amount": 663547,
+                    "share": 0
+                },
+                {
+                    "qty": 304,
+                    "amount": 378664,
+                    "share": 0
+                },
+                {
+                    "qty": 390,
+                    "amount": 418837,
+                    "share": 0
+                },
+                {
+                    "qty": 378,
+                    "amount": 450012,
+                    "share": 0
+                },
+                {
+                    "qty": 287,
+                    "amount": 331202,
+                    "share": 0
+                },
+                {
+                    "qty": 249,
+                    "amount": 295398,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ 横浜磯子店",
+            "qty": 4390,
+            "amount": 4218476,
+            "share": 0,
+            "yoy": 1401.0,
+            "monthly": [
+                {
+                    "qty": 1401,
+                    "amount": 1270715,
+                    "share": 0.1105
+                },
+                {
+                    "qty": 207,
+                    "amount": 219347,
+                    "share": 0
+                },
+                {
+                    "qty": 824,
+                    "amount": 795617,
+                    "share": 0
+                },
+                {
+                    "qty": 631,
+                    "amount": 593448,
+                    "share": 0
+                },
+                {
+                    "qty": 105,
+                    "amount": 123346,
+                    "share": 0
+                },
+                {
+                    "qty": 258,
+                    "amount": 238597,
+                    "share": 0
+                },
+                {
+                    "qty": 341,
+                    "amount": 341990,
+                    "share": 0
+                },
+                {
+                    "qty": 333,
+                    "amount": 321082,
+                    "share": 0
+                },
+                {
+                    "qty": 290,
+                    "amount": 314334,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ 福岡店",
+            "qty": 3094,
+            "amount": 3940884,
+            "share": 0,
+            "yoy": 405.0,
+            "monthly": [
+                {
+                    "qty": 405,
+                    "amount": 439811,
+                    "share": 0.0382
+                },
+                {
+                    "qty": 136,
+                    "amount": 140012,
+                    "share": 0
+                },
+                {
+                    "qty": 601,
+                    "amount": 884368,
+                    "share": 0
+                },
+                {
+                    "qty": 440,
+                    "amount": 466557,
+                    "share": 0
+                },
+                {
+                    "qty": 361,
+                    "amount": 549345,
+                    "share": 0
+                },
+                {
+                    "qty": 341,
+                    "amount": 434818,
+                    "share": 0
+                },
+                {
+                    "qty": 263,
+                    "amount": 343521,
+                    "share": 0
+                },
+                {
+                    "qty": 215,
+                    "amount": 262571,
+                    "share": 0
+                },
+                {
+                    "qty": 332,
+                    "amount": 419881,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ 南柏店",
+            "qty": 3754,
+            "amount": 3633270,
+            "share": 0,
+            "yoy": 714.0,
+            "monthly": [
+                {
+                    "qty": 714,
+                    "amount": 555872,
+                    "share": 0.0483
+                },
+                {
+                    "qty": 97,
+                    "amount": 92748,
+                    "share": 0
+                },
+                {
+                    "qty": 880,
+                    "amount": 1013497,
+                    "share": 0
+                },
+                {
+                    "qty": 447,
+                    "amount": 418977,
+                    "share": 0
+                },
+                {
+                    "qty": 216,
+                    "amount": 191744,
+                    "share": 0
+                },
+                {
+                    "qty": 283,
+                    "amount": 239901,
+                    "share": 0
+                },
+                {
+                    "qty": 490,
+                    "amount": 436068,
+                    "share": 0
+                },
+                {
+                    "qty": 395,
+                    "amount": 467656,
+                    "share": 0
+                },
+                {
+                    "qty": 232,
+                    "amount": 216807,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ 南行徳店",
+            "qty": 3450,
+            "amount": 3295932,
+            "share": 0,
+            "yoy": 283.0,
+            "monthly": [
+                {
+                    "qty": 283,
+                    "amount": 244101,
+                    "share": 0.0212
+                },
+                {
+                    "qty": 97,
+                    "amount": 101369,
+                    "share": 0
+                },
+                {
+                    "qty": 926,
+                    "amount": 930757,
+                    "share": 0
+                },
+                {
+                    "qty": 678,
+                    "amount": 702594,
+                    "share": 0
+                },
+                {
+                    "qty": 225,
+                    "amount": 207385,
+                    "share": 0
+                },
+                {
+                    "qty": 241,
+                    "amount": 219300,
+                    "share": 0
+                },
+                {
+                    "qty": 250,
+                    "amount": 244691,
+                    "share": 0
+                },
+                {
+                    "qty": 529,
+                    "amount": 438301,
+                    "share": 0
+                },
+                {
+                    "qty": 221,
+                    "amount": 207434,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ 湘南平塚店",
+            "qty": 3390,
+            "amount": 2737293,
+            "share": 0,
+            "yoy": 398.0,
+            "monthly": [
+                {
+                    "qty": 398,
+                    "amount": 306709,
+                    "share": 0.0267
+                },
+                {
+                    "qty": 198,
+                    "amount": 114431,
+                    "share": 0
+                },
+                {
+                    "qty": 707,
+                    "amount": 607697,
+                    "share": 0
+                },
+                {
+                    "qty": 658,
+                    "amount": 564468,
+                    "share": 0
+                },
+                {
+                    "qty": 205,
+                    "amount": 175747,
+                    "share": 0
+                },
+                {
+                    "qty": 258,
+                    "amount": 171970,
+                    "share": 0
+                },
+                {
+                    "qty": 334,
+                    "amount": 275098,
+                    "share": 0
+                },
+                {
+                    "qty": 291,
+                    "amount": 232265,
+                    "share": 0
+                },
+                {
+                    "qty": 341,
+                    "amount": 288908,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ 品川ｼｰｻｲﾄﾞ店",
+            "qty": 2298,
+            "amount": 2699562,
+            "share": 0,
+            "yoy": 266.0,
+            "monthly": [
+                {
+                    "qty": 266,
+                    "amount": 230517,
+                    "share": 0.02
+                },
+                {
+                    "qty": 34,
+                    "amount": 33510,
+                    "share": 0
+                },
+                {
+                    "qty": 438,
+                    "amount": 597133,
+                    "share": 0
+                },
+                {
+                    "qty": 473,
+                    "amount": 518290,
+                    "share": 0
+                },
+                {
+                    "qty": 56,
+                    "amount": 111918,
+                    "share": 0
+                },
+                {
+                    "qty": 194,
+                    "amount": 188242,
+                    "share": 0
+                },
+                {
+                    "qty": 342,
+                    "amount": 397623,
+                    "share": 0
+                },
+                {
+                    "qty": 313,
+                    "amount": 410595,
+                    "share": 0
+                },
+                {
+                    "qty": 182,
+                    "amount": 211734,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ 八王子店",
+            "qty": 3117,
+            "amount": 2647044,
+            "share": 0,
+            "yoy": 451.0,
+            "monthly": [
+                {
+                    "qty": 451,
+                    "amount": 397644,
+                    "share": 0.0346
+                },
+                {
+                    "qty": 281,
+                    "amount": 182490,
+                    "share": 0
+                },
+                {
+                    "qty": 591,
+                    "amount": 512368,
+                    "share": 0
+                },
+                {
+                    "qty": 815,
+                    "amount": 621723,
+                    "share": 0
+                },
+                {
+                    "qty": 100,
+                    "amount": 99952,
+                    "share": 0
+                },
+                {
+                    "qty": 236,
+                    "amount": 278185,
+                    "share": 0
+                },
+                {
+                    "qty": 235,
+                    "amount": 209107,
+                    "share": 0
+                },
+                {
+                    "qty": 158,
+                    "amount": 128469,
+                    "share": 0
+                },
+                {
+                    "qty": 250,
+                    "amount": 217106,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ 横浜港北店",
+            "qty": 2809,
+            "amount": 2584960,
+            "share": 0,
+            "yoy": 409.0,
+            "monthly": [
+                {
+                    "qty": 409,
+                    "amount": 357910,
+                    "share": 0.0311
+                },
+                {
+                    "qty": 135,
+                    "amount": 113731,
+                    "share": 0
+                },
+                {
+                    "qty": 518,
+                    "amount": 577660,
+                    "share": 0
+                },
+                {
+                    "qty": 559,
+                    "amount": 500911,
+                    "share": 0
+                },
+                {
+                    "qty": 91,
+                    "amount": 65367,
+                    "share": 0
+                },
+                {
+                    "qty": 232,
+                    "amount": 237322,
+                    "share": 0
+                },
+                {
+                    "qty": 287,
+                    "amount": 238126,
+                    "share": 0
+                },
+                {
+                    "qty": 378,
+                    "amount": 343124,
+                    "share": 0
+                },
+                {
+                    "qty": 200,
+                    "amount": 150809,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ 泉ﾊﾞｲﾊﾟｽ店",
+            "qty": 2021,
+            "amount": 2434717,
+            "share": 0,
+            "yoy": 248.0,
+            "monthly": [
+                {
+                    "qty": 248,
+                    "amount": 303337,
+                    "share": 0.0264
+                },
+                {
+                    "qty": 40,
+                    "amount": 49578,
+                    "share": 0
+                },
+                {
+                    "qty": 268,
+                    "amount": 344596,
+                    "share": 0
+                },
+                {
+                    "qty": 517,
+                    "amount": 555985,
+                    "share": 0
+                },
+                {
+                    "qty": 82,
+                    "amount": 89147,
+                    "share": 0
+                },
+                {
+                    "qty": 146,
+                    "amount": 177943,
+                    "share": 0
+                },
+                {
+                    "qty": 320,
+                    "amount": 451421,
+                    "share": 0
+                },
+                {
+                    "qty": 177,
+                    "amount": 201045,
+                    "share": 0
+                },
+                {
+                    "qty": 223,
+                    "amount": 261665,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ 仙台南店",
+            "qty": 1779,
+            "amount": 2301833,
+            "share": 0,
+            "yoy": 223.0,
+            "monthly": [
+                {
+                    "qty": 223,
+                    "amount": 237055,
+                    "share": 0.0206
+                },
+                {
+                    "qty": 34,
+                    "amount": 42361,
+                    "share": 0
+                },
+                {
+                    "qty": 377,
+                    "amount": 554678,
+                    "share": 0
+                },
+                {
+                    "qty": 412,
+                    "amount": 491601,
+                    "share": 0
+                },
+                {
+                    "qty": 71,
+                    "amount": 90299,
+                    "share": 0
+                },
+                {
+                    "qty": 276,
+                    "amount": 413612,
+                    "share": 0
+                },
+                {
+                    "qty": 210,
+                    "amount": 236034,
+                    "share": 0
+                },
+                {
+                    "qty": 166,
+                    "amount": 231562,
+                    "share": 0
+                },
+                {
+                    "qty": 10,
+                    "amount": 4631,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ 草加ﾊﾞｲﾊﾟｽ店",
+            "qty": 2380,
+            "amount": 2286293,
+            "share": 0,
+            "yoy": 288.0,
+            "monthly": [
+                {
+                    "qty": 288,
+                    "amount": 304678,
+                    "share": 0.0265
+                },
+                {
+                    "qty": 229,
+                    "amount": 193453,
+                    "share": 0
+                },
+                {
+                    "qty": 335,
+                    "amount": 323630,
+                    "share": 0
+                },
+                {
+                    "qty": 733,
+                    "amount": 632934,
+                    "share": 0
+                },
+                {
+                    "qty": 94,
+                    "amount": 62162,
+                    "share": 0
+                },
+                {
+                    "qty": 146,
+                    "amount": 217133,
+                    "share": 0
+                },
+                {
+                    "qty": 257,
+                    "amount": 267886,
+                    "share": 0
+                },
+                {
+                    "qty": 124,
+                    "amount": 104767,
+                    "share": 0
+                },
+                {
+                    "qty": 174,
+                    "amount": 179650,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ 246 溝の口店",
+            "qty": 2071,
+            "amount": 2107930,
+            "share": 0,
+            "yoy": 619.0,
+            "monthly": [
+                {
+                    "qty": 619,
+                    "amount": 629670,
+                    "share": 0.0548
+                },
+                {
+                    "qty": 63,
+                    "amount": 26286,
+                    "share": 0
+                },
+                {
+                    "qty": 205,
+                    "amount": 252701,
+                    "share": 0
+                },
+                {
+                    "qty": 450,
+                    "amount": 441109,
+                    "share": 0
+                },
+                {
+                    "qty": 91,
+                    "amount": 87762,
+                    "share": 0
+                },
+                {
+                    "qty": 181,
+                    "amount": 282177,
+                    "share": 0
+                },
+                {
+                    "qty": 176,
+                    "amount": 160027,
+                    "share": 0
+                },
+                {
+                    "qty": 92,
+                    "amount": 58778,
+                    "share": 0
+                },
+                {
+                    "qty": 194,
+                    "amount": 169420,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ 水戸店",
+            "qty": 2000,
+            "amount": 2084851,
+            "share": 0,
+            "yoy": 240.0,
+            "monthly": [
+                {
+                    "qty": 240,
+                    "amount": 276178,
+                    "share": 0.024
+                },
+                {
+                    "qty": 37,
+                    "amount": 36488,
+                    "share": 0
+                },
+                {
+                    "qty": 337,
+                    "amount": 430931,
+                    "share": 0
+                },
+                {
+                    "qty": 428,
+                    "amount": 432811,
+                    "share": 0
+                },
+                {
+                    "qty": 44,
+                    "amount": 31717,
+                    "share": 0
+                },
+                {
+                    "qty": 186,
+                    "amount": 184748,
+                    "share": 0
+                },
+                {
+                    "qty": 233,
+                    "amount": 238094,
+                    "share": 0
+                },
+                {
+                    "qty": 297,
+                    "amount": 240474,
+                    "share": 0
+                },
+                {
+                    "qty": 198,
+                    "amount": 213410,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ ふじみ野店",
+            "qty": 2298,
+            "amount": 1938458,
+            "share": 0,
+            "yoy": 335.0,
+            "monthly": [
+                {
+                    "qty": 335,
+                    "amount": 265822,
+                    "share": 0.0231
+                },
+                {
+                    "qty": 150,
+                    "amount": 157691,
+                    "share": 0
+                },
+                {
+                    "qty": 369,
+                    "amount": 325202,
+                    "share": 0
+                },
+                {
+                    "qty": 470,
+                    "amount": 452403,
+                    "share": 0
+                },
+                {
+                    "qty": 196,
+                    "amount": 121120,
+                    "share": 0
+                },
+                {
+                    "qty": 111,
+                    "amount": 96482,
+                    "share": 0
+                },
+                {
+                    "qty": 204,
+                    "amount": 148178,
+                    "share": 0
+                },
+                {
+                    "qty": 266,
+                    "amount": 222436,
+                    "share": 0
+                },
+                {
+                    "qty": 197,
+                    "amount": 149124,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ 盛岡店",
+            "qty": 1572,
+            "amount": 1933075,
+            "share": 0,
+            "yoy": 191.0,
+            "monthly": [
+                {
+                    "qty": 191,
+                    "amount": 218412,
+                    "share": 0.019
+                },
+                {
+                    "qty": 41,
+                    "amount": 54649,
+                    "share": 0
+                },
+                {
+                    "qty": 182,
+                    "amount": 229473,
+                    "share": 0
+                },
+                {
+                    "qty": 274,
+                    "amount": 316276,
+                    "share": 0
+                },
+                {
+                    "qty": 102,
+                    "amount": 99081,
+                    "share": 0
+                },
+                {
+                    "qty": 175,
+                    "amount": 223924,
+                    "share": 0
+                },
+                {
+                    "qty": 302,
+                    "amount": 408647,
+                    "share": 0
+                },
+                {
+                    "qty": 135,
+                    "amount": 167081,
+                    "share": 0
+                },
+                {
+                    "qty": 170,
+                    "amount": 215532,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ 石巻店",
+            "qty": 1490,
+            "amount": 1902146,
+            "share": 0,
+            "yoy": 252.0,
+            "monthly": [
+                {
+                    "qty": 252,
+                    "amount": 321671,
+                    "share": 0.028
+                },
+                {
+                    "qty": 49,
+                    "amount": 54052,
+                    "share": 0
+                },
+                {
+                    "qty": 254,
+                    "amount": 318106,
+                    "share": 0
+                },
+                {
+                    "qty": 278,
+                    "amount": 337199,
+                    "share": 0
+                },
+                {
+                    "qty": 59,
+                    "amount": 66135,
+                    "share": 0
+                },
+                {
+                    "qty": 159,
+                    "amount": 215591,
+                    "share": 0
+                },
+                {
+                    "qty": 292,
+                    "amount": 424430,
+                    "share": 0
+                },
+                {
+                    "qty": 76,
+                    "amount": 96755,
+                    "share": 0
+                },
+                {
+                    "qty": 71,
+                    "amount": 68207,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ 東久留米店",
+            "qty": 2192,
+            "amount": 1865655,
+            "share": 0,
+            "yoy": 252.0,
+            "monthly": [
+                {
+                    "qty": 252,
+                    "amount": 202285,
+                    "share": 0.0176
+                },
+                {
+                    "qty": 59,
+                    "amount": 42134,
+                    "share": 0
+                },
+                {
+                    "qty": 312,
+                    "amount": 307274,
+                    "share": 0
+                },
+                {
+                    "qty": 508,
+                    "amount": 507458,
+                    "share": 0
+                },
+                {
+                    "qty": 195,
+                    "amount": 110422,
+                    "share": 0
+                },
+                {
+                    "qty": 101,
+                    "amount": 92757,
+                    "share": 0
+                },
+                {
+                    "qty": 196,
+                    "amount": 211016,
+                    "share": 0
+                },
+                {
+                    "qty": 227,
+                    "amount": 140652,
+                    "share": 0
+                },
+                {
+                    "qty": 342,
+                    "amount": 251657,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ 成田富里店",
+            "qty": 1793,
+            "amount": 1800563,
+            "share": 0,
+            "yoy": 118.0,
+            "monthly": [
+                {
+                    "qty": 118,
+                    "amount": 110200,
+                    "share": 0.0096
+                },
+                {
+                    "qty": 79,
+                    "amount": 65252,
+                    "share": 0
+                },
+                {
+                    "qty": 398,
+                    "amount": 399581,
+                    "share": 0
+                },
+                {
+                    "qty": 504,
+                    "amount": 482810,
+                    "share": 0
+                },
+                {
+                    "qty": 91,
+                    "amount": 72121,
+                    "share": 0
+                },
+                {
+                    "qty": 90,
+                    "amount": 93125,
+                    "share": 0
+                },
+                {
+                    "qty": 182,
+                    "amount": 196991,
+                    "share": 0
+                },
+                {
+                    "qty": 141,
+                    "amount": 151170,
+                    "share": 0
+                },
+                {
+                    "qty": 190,
+                    "amount": 229313,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ 千葉稲毛海岸店",
+            "qty": 1705,
+            "amount": 1795241,
+            "share": 0,
+            "yoy": 552.0,
+            "monthly": [
+                {
+                    "qty": 552,
+                    "amount": 550089,
+                    "share": 0.0478
+                },
+                {
+                    "qty": 32,
+                    "amount": 25475,
+                    "share": 0
+                },
+                {
+                    "qty": 330,
+                    "amount": 427860,
+                    "share": 0
+                },
+                {
+                    "qty": 295,
+                    "amount": 284154,
+                    "share": 0
+                },
+                {
+                    "qty": 30,
+                    "amount": 34192,
+                    "share": 0
+                },
+                {
+                    "qty": 104,
+                    "amount": 109971,
+                    "share": 0
+                },
+                {
+                    "qty": 210,
+                    "amount": 213489,
+                    "share": 0
+                },
+                {
+                    "qty": 99,
+                    "amount": 100187,
+                    "share": 0
+                },
+                {
+                    "qty": 53,
+                    "amount": 49824,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ 日本橋店",
+            "qty": 1853,
+            "amount": 1784453,
+            "share": 0,
+            "yoy": 281.0,
+            "monthly": [
+                {
+                    "qty": 281,
+                    "amount": 270323,
+                    "share": 0.0235
+                },
+                {
+                    "qty": 47,
+                    "amount": 48870,
+                    "share": 0
+                },
+                {
+                    "qty": 424,
+                    "amount": 442667,
+                    "share": 0
+                },
+                {
+                    "qty": 431,
+                    "amount": 424487,
+                    "share": 0
+                },
+                {
+                    "qty": 106,
+                    "amount": 71368,
+                    "share": 0
+                },
+                {
+                    "qty": 109,
+                    "amount": 89614,
+                    "share": 0
+                },
+                {
+                    "qty": 246,
+                    "amount": 264127,
+                    "share": 0
+                },
+                {
+                    "qty": 79,
+                    "amount": 60436,
+                    "share": 0
+                },
+                {
+                    "qty": 130,
+                    "amount": 112561,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ ｲｵﾝﾓｰﾙ木更津店",
+            "qty": 1822,
+            "amount": 1616147,
+            "share": 0,
+            "yoy": 194.0,
+            "monthly": [
+                {
+                    "qty": 194,
+                    "amount": 170390,
+                    "share": 0.0148
+                },
+                {
+                    "qty": 75,
+                    "amount": 72391,
+                    "share": 0
+                },
+                {
+                    "qty": 489,
+                    "amount": 445891,
+                    "share": 0
+                },
+                {
+                    "qty": 418,
+                    "amount": 389057,
+                    "share": 0
+                },
+                {
+                    "qty": 116,
+                    "amount": 78948,
+                    "share": 0
+                },
+                {
+                    "qty": 93,
+                    "amount": 74284,
+                    "share": 0
+                },
+                {
+                    "qty": 241,
+                    "amount": 217509,
+                    "share": 0
+                },
+                {
+                    "qty": 98,
+                    "amount": 69817,
+                    "share": 0
+                },
+                {
+                    "qty": 98,
+                    "amount": 97860,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ 錦糸町店",
+            "qty": 1860,
+            "amount": 1603982,
+            "share": 0,
+            "yoy": 177.0,
+            "monthly": [
+                {
+                    "qty": 177,
+                    "amount": 145177,
+                    "share": 0.0126
+                },
+                {
+                    "qty": 73,
+                    "amount": 49829,
+                    "share": 0
+                },
+                {
+                    "qty": 265,
+                    "amount": 252120,
+                    "share": 0
+                },
+                {
+                    "qty": 596,
+                    "amount": 520015,
+                    "share": 0
+                },
+                {
+                    "qty": 203,
+                    "amount": 138528,
+                    "share": 0
+                },
+                {
+                    "qty": 90,
+                    "amount": 77621,
+                    "share": 0
+                },
+                {
+                    "qty": 160,
+                    "amount": 161691,
+                    "share": 0
+                },
+                {
+                    "qty": 203,
+                    "amount": 181091,
+                    "share": 0
+                },
+                {
+                    "qty": 93,
+                    "amount": 77910,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ 茂原店",
+            "qty": 1629,
+            "amount": 1566600,
+            "share": 0,
+            "yoy": 127.0,
+            "monthly": [
+                {
+                    "qty": 127,
+                    "amount": 123716,
+                    "share": 0.0108
+                },
+                {
+                    "qty": 40,
+                    "amount": 29860,
+                    "share": 0
+                },
+                {
+                    "qty": 282,
+                    "amount": 279712,
+                    "share": 0
+                },
+                {
+                    "qty": 529,
+                    "amount": 543988,
+                    "share": 0
+                },
+                {
+                    "qty": 198,
+                    "amount": 130594,
+                    "share": 0
+                },
+                {
+                    "qty": 59,
+                    "amount": 62027,
+                    "share": 0
+                },
+                {
+                    "qty": 110,
+                    "amount": 124163,
+                    "share": 0
+                },
+                {
+                    "qty": 262,
+                    "amount": 245234,
+                    "share": 0
+                },
+                {
+                    "qty": 22,
+                    "amount": 27306,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ 鶴見駒岡店",
+            "qty": 2067,
+            "amount": 1544407,
+            "share": 0,
+            "yoy": 222.0,
+            "monthly": [
+                {
+                    "qty": 222,
+                    "amount": 169056,
+                    "share": 0.0147
+                },
+                {
+                    "qty": 46,
+                    "amount": 42903,
+                    "share": 0
+                },
+                {
+                    "qty": 413,
+                    "amount": 262040,
+                    "share": 0
+                },
+                {
+                    "qty": 561,
+                    "amount": 512499,
+                    "share": 0
+                },
+                {
+                    "qty": 104,
+                    "amount": 67066,
+                    "share": 0
+                },
+                {
+                    "qty": 150,
+                    "amount": 90795,
+                    "share": 0
+                },
+                {
+                    "qty": 186,
+                    "amount": 133712,
+                    "share": 0
+                },
+                {
+                    "qty": 223,
+                    "amount": 160250,
+                    "share": 0
+                },
+                {
+                    "qty": 162,
+                    "amount": 106086,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ 市原16号店",
+            "qty": 1565,
+            "amount": 1529698,
+            "share": 0,
+            "yoy": 192.0,
+            "monthly": [
+                {
+                    "qty": 192,
+                    "amount": 169720,
+                    "share": 0.0148
+                },
+                {
+                    "qty": 40,
+                    "amount": 42634,
+                    "share": 0
+                },
+                {
+                    "qty": 281,
+                    "amount": 340444,
+                    "share": 0
+                },
+                {
+                    "qty": 454,
+                    "amount": 474679,
+                    "share": 0
+                },
+                {
+                    "qty": 42,
+                    "amount": 28682,
+                    "share": 0
+                },
+                {
+                    "qty": 108,
+                    "amount": 75930,
+                    "share": 0
+                },
+                {
+                    "qty": 220,
+                    "amount": 196039,
+                    "share": 0
+                },
+                {
+                    "qty": 95,
+                    "amount": 74555,
+                    "share": 0
+                },
+                {
+                    "qty": 133,
+                    "amount": 127015,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ 新大宮ﾊﾞｲﾊﾟｽ店",
+            "qty": 1558,
+            "amount": 1507516,
+            "share": 0,
+            "yoy": 336.0,
+            "monthly": [
+                {
+                    "qty": 336,
+                    "amount": 309039,
+                    "share": 0.0269
+                },
+                {
+                    "qty": 31,
+                    "amount": 22756,
+                    "share": 0
+                },
+                {
+                    "qty": 332,
+                    "amount": 289172,
+                    "share": 0
+                },
+                {
+                    "qty": 460,
+                    "amount": 445805,
+                    "share": 0
+                },
+                {
+                    "qty": 86,
+                    "amount": 86606,
+                    "share": 0
+                },
+                {
+                    "qty": 75,
+                    "amount": 100478,
+                    "share": 0
+                },
+                {
+                    "qty": 133,
+                    "amount": 158039,
+                    "share": 0
+                },
+                {
+                    "qty": 66,
+                    "amount": 53739,
+                    "share": 0
+                },
+                {
+                    "qty": 39,
+                    "amount": 41882,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ 足立環七店",
+            "qty": 1565,
+            "amount": 1494576,
+            "share": 0,
+            "yoy": 108.0,
+            "monthly": [
+                {
+                    "qty": 108,
+                    "amount": 98099,
+                    "share": 0.0085
+                },
+                {
+                    "qty": 28,
+                    "amount": 24697,
+                    "share": 0
+                },
+                {
+                    "qty": 476,
+                    "amount": 450204,
+                    "share": 0
+                },
+                {
+                    "qty": 411,
+                    "amount": 441742,
+                    "share": 0
+                },
+                {
+                    "qty": 46,
+                    "amount": 35835,
+                    "share": 0
+                },
+                {
+                    "qty": 171,
+                    "amount": 151366,
+                    "share": 0
+                },
+                {
+                    "qty": 133,
+                    "amount": 141036,
+                    "share": 0
+                },
+                {
+                    "qty": 134,
+                    "amount": 97895,
+                    "share": 0
+                },
+                {
+                    "qty": 58,
+                    "amount": 53702,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ 鹿島神栖店",
+            "qty": 1493,
+            "amount": 1487504,
+            "share": 0,
+            "yoy": 232.0,
+            "monthly": [
+                {
+                    "qty": 232,
+                    "amount": 223067,
+                    "share": 0.0194
+                },
+                {
+                    "qty": 4,
+                    "amount": 6855,
+                    "share": 0
+                },
+                {
+                    "qty": 132,
+                    "amount": 154485,
+                    "share": 0
+                },
+                {
+                    "qty": 562,
+                    "amount": 536044,
+                    "share": 0
+                },
+                {
+                    "qty": 78,
+                    "amount": 60236,
+                    "share": 0
+                },
+                {
+                    "qty": 32,
+                    "amount": 30948,
+                    "share": 0
+                },
+                {
+                    "qty": 112,
+                    "amount": 99174,
+                    "share": 0
+                },
+                {
+                    "qty": 120,
+                    "amount": 92605,
+                    "share": 0
+                },
+                {
+                    "qty": 221,
+                    "amount": 284090,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ 多賀城店",
+            "qty": 1222,
+            "amount": 1429977,
+            "share": 0,
+            "yoy": 104.0,
+            "monthly": [
+                {
+                    "qty": 104,
+                    "amount": 100976,
+                    "share": 0.0088
+                },
+                {
+                    "qty": 37,
+                    "amount": 31883,
+                    "share": 0
+                },
+                {
+                    "qty": 162,
+                    "amount": 220855,
+                    "share": 0
+                },
+                {
+                    "qty": 275,
+                    "amount": 294841,
+                    "share": 0
+                },
+                {
+                    "qty": 64,
+                    "amount": 78599,
+                    "share": 0
+                },
+                {
+                    "qty": 112,
+                    "amount": 134617,
+                    "share": 0
+                },
+                {
+                    "qty": 183,
+                    "amount": 247474,
+                    "share": 0
+                },
+                {
+                    "qty": 161,
+                    "amount": 169012,
+                    "share": 0
+                },
+                {
+                    "qty": 124,
+                    "amount": 151720,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ 市川東店",
+            "qty": 1370,
+            "amount": 1384881,
+            "share": 0,
+            "yoy": 273.0,
+            "monthly": [
+                {
+                    "qty": 273,
+                    "amount": 241802,
+                    "share": 0.021
+                },
+                {
+                    "qty": 18,
+                    "amount": 19334,
+                    "share": 0
+                },
+                {
+                    "qty": 261,
+                    "amount": 307333,
+                    "share": 0
+                },
+                {
+                    "qty": 365,
+                    "amount": 354796,
+                    "share": 0
+                },
+                {
+                    "qty": 29,
+                    "amount": 20367,
+                    "share": 0
+                },
+                {
+                    "qty": 79,
+                    "amount": 90411,
+                    "share": 0
+                },
+                {
+                    "qty": 103,
+                    "amount": 112530,
+                    "share": 0
+                },
+                {
+                    "qty": 92,
+                    "amount": 77925,
+                    "share": 0
+                },
+                {
+                    "qty": 150,
+                    "amount": 160383,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ ｼｭﾛｱﾓｰﾙ筑紫野店",
+            "qty": 1157,
+            "amount": 1356276,
+            "share": 0,
+            "yoy": 136.0,
+            "monthly": [
+                {
+                    "qty": 136,
+                    "amount": 180638,
+                    "share": 0.0157
+                },
+                {
+                    "qty": 8,
+                    "amount": 10790,
+                    "share": 0
+                },
+                {
+                    "qty": 302,
+                    "amount": 309470,
+                    "share": 0
+                },
+                {
+                    "qty": 155,
+                    "amount": 187656,
+                    "share": 0
+                },
+                {
+                    "qty": 59,
+                    "amount": 63320,
+                    "share": 0
+                },
+                {
+                    "qty": 180,
+                    "amount": 196233,
+                    "share": 0
+                },
+                {
+                    "qty": 147,
+                    "amount": 211596,
+                    "share": 0
+                },
+                {
+                    "qty": 89,
+                    "amount": 116014,
+                    "share": 0
+                },
+                {
+                    "qty": 81,
+                    "amount": 80559,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ 戸田店",
+            "qty": 1504,
+            "amount": 1276639,
+            "share": 0,
+            "yoy": 204.0,
+            "monthly": [
+                {
+                    "qty": 204,
+                    "amount": 177744,
+                    "share": 0.0155
+                },
+                {
+                    "qty": 34,
+                    "amount": 29820,
+                    "share": 0
+                },
+                {
+                    "qty": 228,
+                    "amount": 190367,
+                    "share": 0
+                },
+                {
+                    "qty": 466,
+                    "amount": 412388,
+                    "share": 0
+                },
+                {
+                    "qty": 26,
+                    "amount": 25582,
+                    "share": 0
+                },
+                {
+                    "qty": 165,
+                    "amount": 124957,
+                    "share": 0
+                },
+                {
+                    "qty": 155,
+                    "amount": 140789,
+                    "share": 0
+                },
+                {
+                    "qty": 112,
+                    "amount": 83876,
+                    "share": 0
+                },
+                {
+                    "qty": 114,
+                    "amount": 91116,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ 府中店",
+            "qty": 1174,
+            "amount": 1034284,
+            "share": 0,
+            "yoy": 197.0,
+            "monthly": [
+                {
+                    "qty": 197,
+                    "amount": 160814,
+                    "share": 0.014
+                },
+                {
+                    "qty": 95,
+                    "amount": 85214,
+                    "share": 0
+                },
+                {
+                    "qty": 193,
+                    "amount": 171900,
+                    "share": 0
+                },
+                {
+                    "qty": 416,
+                    "amount": 377587,
+                    "share": 0
+                },
+                {
+                    "qty": 17,
+                    "amount": 11184,
+                    "share": 0
+                },
+                {
+                    "qty": 32,
+                    "amount": 24917,
+                    "share": 0
+                },
+                {
+                    "qty": 77,
+                    "amount": 77092,
+                    "share": 0
+                },
+                {
+                    "qty": 96,
+                    "amount": 74756,
+                    "share": 0
+                },
+                {
+                    "qty": 51,
+                    "amount": 50820,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ 東松山高坂店",
+            "qty": 1151,
+            "amount": 1017043,
+            "share": 0,
+            "yoy": 431.0,
+            "monthly": [
+                {
+                    "qty": 431,
+                    "amount": 336136,
+                    "share": 0.0292
+                },
+                {
+                    "qty": 13,
+                    "amount": 12431,
+                    "share": 0
+                },
+                {
+                    "qty": 70,
+                    "amount": 90659,
+                    "share": 0
+                },
+                {
+                    "qty": 351,
+                    "amount": 318372,
+                    "share": 0
+                },
+                {
+                    "qty": 28,
+                    "amount": 23367,
+                    "share": 0
+                },
+                {
+                    "qty": 31,
+                    "amount": 31528,
+                    "share": 0
+                },
+                {
+                    "qty": 55,
+                    "amount": 61935,
+                    "share": 0
+                },
+                {
+                    "qty": 109,
+                    "amount": 92512,
+                    "share": 0
+                },
+                {
+                    "qty": 63,
+                    "amount": 50103,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ 八幡山店",
+            "qty": 1141,
+            "amount": 977152,
+            "share": 0,
+            "yoy": 157.0,
+            "monthly": [
+                {
+                    "qty": 157,
+                    "amount": 118057,
+                    "share": 0.0103
+                },
+                {
+                    "qty": 26,
+                    "amount": 26779,
+                    "share": 0
+                },
+                {
+                    "qty": 218,
+                    "amount": 230070,
+                    "share": 0
+                },
+                {
+                    "qty": 302,
+                    "amount": 267255,
+                    "share": 0
+                },
+                {
+                    "qty": 67,
+                    "amount": 50948,
+                    "share": 0
+                },
+                {
+                    "qty": 86,
+                    "amount": 62471,
+                    "share": 0
+                },
+                {
+                    "qty": 77,
+                    "amount": 71530,
+                    "share": 0
+                },
+                {
+                    "qty": 128,
+                    "amount": 78276,
+                    "share": 0
+                },
+                {
+                    "qty": 80,
+                    "amount": 71766,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ 青戸店",
+            "qty": 1024,
+            "amount": 932782,
+            "share": 0,
+            "yoy": 155.0,
+            "monthly": [
+                {
+                    "qty": 155,
+                    "amount": 122125,
+                    "share": 0.0106
+                },
+                {
+                    "qty": 18,
+                    "amount": 10768,
+                    "share": 0
+                },
+                {
+                    "qty": 201,
+                    "amount": 197868,
+                    "share": 0
+                },
+                {
+                    "qty": 319,
+                    "amount": 297577,
+                    "share": 0
+                },
+                {
+                    "qty": 42,
+                    "amount": 55233,
+                    "share": 0
+                },
+                {
+                    "qty": 44,
+                    "amount": 36867,
+                    "share": 0
+                },
+                {
+                    "qty": 113,
+                    "amount": 108587,
+                    "share": 0
+                },
+                {
+                    "qty": 62,
+                    "amount": 41591,
+                    "share": 0
+                },
+                {
+                    "qty": 70,
+                    "amount": 62166,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ つくば店",
+            "qty": 958,
+            "amount": 875244,
+            "share": 0,
+            "yoy": 179.0,
+            "monthly": [
+                {
+                    "qty": 179,
+                    "amount": 142919,
+                    "share": 0.0124
+                },
+                {
+                    "qty": 21,
+                    "amount": 19689,
+                    "share": 0
+                },
+                {
+                    "qty": 148,
+                    "amount": 161238,
+                    "share": 0
+                },
+                {
+                    "qty": 331,
+                    "amount": 333341,
+                    "share": 0
+                },
+                {
+                    "qty": 53,
+                    "amount": 25197,
+                    "share": 0
+                },
+                {
+                    "qty": 38,
+                    "amount": 35951,
+                    "share": 0
+                },
+                {
+                    "qty": 78,
+                    "amount": 82885,
+                    "share": 0
+                },
+                {
+                    "qty": 21,
+                    "amount": 21599,
+                    "share": 0
+                },
+                {
+                    "qty": 89,
+                    "amount": 52425,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ 土浦店",
+            "qty": 810,
+            "amount": 779864,
+            "share": 0,
+            "yoy": 79.0,
+            "monthly": [
+                {
+                    "qty": 79,
+                    "amount": 62178,
+                    "share": 0.0054
+                },
+                {
+                    "qty": 33,
+                    "amount": 28838,
+                    "share": 0
+                },
+                {
+                    "qty": 113,
+                    "amount": 103036,
+                    "share": 0
+                },
+                {
+                    "qty": 272,
+                    "amount": 306684,
+                    "share": 0
+                },
+                {
+                    "qty": 9,
+                    "amount": 6415,
+                    "share": 0
+                },
+                {
+                    "qty": 33,
+                    "amount": 26579,
+                    "share": 0
+                },
+                {
+                    "qty": 69,
+                    "amount": 72498,
+                    "share": 0
+                },
+                {
+                    "qty": 102,
+                    "amount": 88737,
+                    "share": 0
+                },
+                {
+                    "qty": 100,
+                    "amount": 84899,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ 飯塚店",
+            "qty": 709,
+            "amount": 774863,
+            "share": 0,
+            "yoy": 43.0,
+            "monthly": [
+                {
+                    "qty": 43,
+                    "amount": 49430,
+                    "share": 0.0043
+                },
+                {
+                    "qty": 22,
+                    "amount": 28794,
+                    "share": 0
+                },
+                {
+                    "qty": 169,
+                    "amount": 168889,
+                    "share": 0
+                },
+                {
+                    "qty": 127,
+                    "amount": 166747,
+                    "share": 0
+                },
+                {
+                    "qty": 44,
+                    "amount": 36499,
+                    "share": 0
+                },
+                {
+                    "qty": 74,
+                    "amount": 68374,
+                    "share": 0
+                },
+                {
+                    "qty": 110,
+                    "amount": 129829,
+                    "share": 0
+                },
+                {
+                    "qty": 52,
+                    "amount": 49781,
+                    "share": 0
+                },
+                {
+                    "qty": 68,
+                    "amount": 76520,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ 甲府店",
+            "qty": 834,
+            "amount": 685021,
+            "share": 0,
+            "yoy": 83.0,
+            "monthly": [
+                {
+                    "qty": 83,
+                    "amount": 70925,
+                    "share": 0.0062
+                },
+                {
+                    "qty": 42,
+                    "amount": 36455,
+                    "share": 0
+                },
+                {
+                    "qty": 120,
+                    "amount": 95481,
+                    "share": 0
+                },
+                {
+                    "qty": 304,
+                    "amount": 260134,
+                    "share": 0
+                },
+                {
+                    "qty": 38,
+                    "amount": 28725,
+                    "share": 0
+                },
+                {
+                    "qty": 50,
+                    "amount": 38239,
+                    "share": 0
+                },
+                {
+                    "qty": 133,
+                    "amount": 113381,
+                    "share": 0
+                },
+                {
+                    "qty": 26,
+                    "amount": 18156,
+                    "share": 0
+                },
+                {
+                    "qty": 38,
+                    "amount": 23525,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ いわき鹿島店",
+            "qty": 573,
+            "amount": 680410,
+            "share": 0,
+            "yoy": 94.0,
+            "monthly": [
+                {
+                    "qty": 94,
+                    "amount": 102123,
+                    "share": 0.0089
+                },
+                {
+                    "qty": 14,
+                    "amount": 12878,
+                    "share": 0
+                },
+                {
+                    "qty": 62,
+                    "amount": 89484,
+                    "share": 0
+                },
+                {
+                    "qty": 187,
+                    "amount": 238947,
+                    "share": 0
+                },
+                {
+                    "qty": 61,
+                    "amount": 73103,
+                    "share": 0
+                },
+                {
+                    "qty": 30,
+                    "amount": 24979,
+                    "share": 0
+                },
+                {
+                    "qty": 59,
+                    "amount": 67828,
+                    "share": 0
+                },
+                {
+                    "qty": 44,
+                    "amount": 53293,
+                    "share": 0
+                },
+                {
+                    "qty": 22,
+                    "amount": 17775,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ 唐津店",
+            "qty": 522,
+            "amount": 591504,
+            "share": 0,
+            "yoy": 100.0,
+            "monthly": [
+                {
+                    "qty": 100,
+                    "amount": 93879,
+                    "share": 0.0082
+                },
+                {
+                    "qty": 6,
+                    "amount": 4684,
+                    "share": 0
+                },
+                {
+                    "qty": 98,
+                    "amount": 114625,
+                    "share": 0
+                },
+                {
+                    "qty": 152,
+                    "amount": 189096,
+                    "share": 0
+                },
+                {
+                    "qty": 13,
+                    "amount": 13588,
+                    "share": 0
+                },
+                {
+                    "qty": 39,
+                    "amount": 44537,
+                    "share": 0
+                },
+                {
+                    "qty": 53,
+                    "amount": 75806,
+                    "share": 0
+                },
+                {
+                    "qty": 15,
+                    "amount": 8460,
+                    "share": 0
+                },
+                {
+                    "qty": 46,
+                    "amount": 46829,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ 天草店",
+            "qty": 498,
+            "amount": 573575,
+            "share": 0,
+            "yoy": 75.0,
+            "monthly": [
+                {
+                    "qty": 75,
+                    "amount": 87185,
+                    "share": 0.0076
+                },
+                {
+                    "qty": 16,
+                    "amount": 21770,
+                    "share": 0
+                },
+                {
+                    "qty": 36,
+                    "amount": 51500,
+                    "share": 0
+                },
+                {
+                    "qty": 169,
+                    "amount": 198657,
+                    "share": 0
+                },
+                {
+                    "qty": 20,
+                    "amount": 7268,
+                    "share": 0
+                },
+                {
+                    "qty": 38,
+                    "amount": 31410,
+                    "share": 0
+                },
+                {
+                    "qty": 73,
+                    "amount": 102170,
+                    "share": 0
+                },
+                {
+                    "qty": 35,
+                    "amount": 34100,
+                    "share": 0
+                },
+                {
+                    "qty": 36,
+                    "amount": 39515,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ 鹿屋店",
+            "qty": 406,
+            "amount": 490171,
+            "share": 0,
+            "yoy": 99.0,
+            "monthly": [
+                {
+                    "qty": 99,
+                    "amount": 85720,
+                    "share": 0.0075
+                },
+                {
+                    "qty": 14,
+                    "amount": 19135,
+                    "share": 0
+                },
+                {
+                    "qty": 41,
+                    "amount": 49942,
+                    "share": 0
+                },
+                {
+                    "qty": 109,
+                    "amount": 161641,
+                    "share": 0
+                },
+                {
+                    "qty": 20,
+                    "amount": 20695,
+                    "share": 0
+                },
+                {
+                    "qty": 20,
+                    "amount": 22408,
+                    "share": 0
+                },
+                {
+                    "qty": 44,
+                    "amount": 55000,
+                    "share": 0
+                },
+                {
+                    "qty": 24,
+                    "amount": 29940,
+                    "share": 0
+                },
+                {
+                    "qty": 35,
+                    "amount": 45690,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ 朝霞店",
+            "qty": 455,
+            "amount": 392511,
+            "share": 0,
+            "yoy": 55.0,
+            "monthly": [
+                {
+                    "qty": 55,
+                    "amount": 47541,
+                    "share": 0.0041
+                },
+                {
+                    "qty": 2,
+                    "amount": 2100,
+                    "share": 0
+                },
+                {
+                    "qty": 21,
+                    "amount": 14101,
+                    "share": 0
+                },
+                {
+                    "qty": 223,
+                    "amount": 203956,
+                    "share": 0
+                },
+                {
+                    "qty": 9,
+                    "amount": 6835,
+                    "share": 0
+                },
+                {
+                    "qty": 9,
+                    "amount": 7237,
+                    "share": 0
+                },
+                {
+                    "qty": 19,
+                    "amount": 15621,
+                    "share": 0
+                },
+                {
+                    "qty": 37,
+                    "amount": 27888,
+                    "share": 0
+                },
+                {
+                    "qty": 80,
+                    "amount": 67232,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        },
+        {
+            "name": "ｷｬｽﾃｨﾝｸﾞ山形三川店",
+            "qty": 127,
+            "amount": 145841,
+            "share": 0,
+            "yoy": null,
+            "monthly": [
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 89,
+                    "share": 0
+                },
+                {
+                    "qty": 109819,
+                    "amount": 38,
+                    "share": 0
+                },
+                {
+                    "qty": 36022,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                },
+                {
+                    "qty": 0,
+                    "amount": 0,
+                    "share": 0
+                }
+            ]
+        }
+    ]
+}

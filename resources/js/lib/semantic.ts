@@ -1,0 +1,38 @@
+// Semantic colors used across the BI screens: positive, negative, warning, neutral.
+export type Tone = 'positive' | 'negative' | 'warning' | 'neutral';
+
+export const toneText: Record<Tone, string> = {
+    positive: 'text-emerald-600 dark:text-emerald-400',
+    negative: 'text-red-600 dark:text-red-400',
+    warning: 'text-amber-600 dark:text-amber-400',
+    neutral: 'text-muted-foreground',
+};
+
+export const toneBar: Record<Tone, string> = {
+    positive: 'bg-emerald-500',
+    negative: 'bg-red-500',
+    warning: 'bg-amber-500',
+    neutral: 'bg-muted-foreground/40',
+};
+
+// Year-over-year ratio: 1.0 = same as last year.
+export function yoyTone(value?: number | null): Tone {
+    if (value == null) {
+        return 'neutral';
+    }
+
+    return value >= 1 ? 'positive' : 'negative';
+}
+
+// Achievement against target: 1.0 = target reached.
+export function achievementTone(value?: number | null): Tone {
+    if (value == null) {
+        return 'neutral';
+    }
+
+    if (value >= 1) {
+        return 'positive';
+    }
+
+    return value >= 0.6 ? 'warning' : 'negative';
+}

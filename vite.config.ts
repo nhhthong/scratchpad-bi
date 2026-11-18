@@ -32,8 +32,14 @@ export default defineConfig({
         }),
     ]),
     server: {
+        // Docker: listen on all interfaces at a fixed port (set by compose.yaml); unset locally = Vite defaults.
+        host: process.env.VITE_HOST,
+        port: process.env.VITE_PORT ? Number(process.env.VITE_PORT) : undefined,
+        strictPort: true,
         // Docker: URL the browser uses to reach Vite (written to public/hot).
         origin: process.env.VITE_DEV_SERVER_ORIGIN,
+        // Setting `origin` makes the plugin allow only that origin; allow the app (any localhost port) too.
+        cors: { origin: /^https?:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/ },
         watch: {
             ignored: [
                 '**/.agents/**',
@@ -70,6 +76,11 @@ export default defineConfig({
         htmlWhitespaceSensitivity: 'css',
         ignorePatterns: [
             '.github/**',
+            '.claude/**',
+            'lang/**',
+            '.mcp.json',
+            'AGENTS.md',
+            'README.md',
             'composer.json',
             'resources/js/components/ui/*',
             'resources/views/mail/*',
