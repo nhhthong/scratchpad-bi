@@ -16,110 +16,107 @@
     "years": {
         "2026": {
             "total": {
-                "name": "総計",
                 "qty": 867665,
                 "amount": 830465703,
                 "share": 1.0,
-                "yoy": null,
                 "monthly": [
                     {
                         "qty": 94332,
                         "amount": 75569536,
-                        "share": 0.091
+                        "share": 0.090997
                     },
                     {
                         "qty": 63289,
                         "amount": 39457060,
-                        "share": 0.0475
+                        "share": 0.047512
                     },
                     {
                         "qty": 112165,
                         "amount": 96617497,
-                        "share": 0.1163
+                        "share": 0.116341
                     },
                     {
                         "qty": 101569,
                         "amount": 110872141,
-                        "share": 0.1335
+                        "share": 0.133506
                     },
                     {
                         "qty": 63620,
                         "amount": 81276137,
-                        "share": 0.0979
+                        "share": 0.097868
                     },
                     {
                         "qty": 86870,
                         "amount": 89621612,
-                        "share": 0.1079
+                        "share": 0.107917
                     },
                     {
                         "qty": 78083,
                         "amount": 90711296,
-                        "share": 0.1092
+                        "share": 0.109229
                     },
                     {
                         "qty": 119014,
                         "amount": 72120287,
-                        "share": 0.0868
+                        "share": 0.086843
                     },
                     {
                         "qty": 72849,
                         "amount": 93292471,
-                        "share": 0.1123
+                        "share": 0.112338
                     },
                     {
                         "qty": 75874,
                         "amount": 80927666,
-                        "share": 0.0974
+                        "share": 0.097449
                     },
                     {
                         "qty": 0,
                         "amount": 0,
-                        "share": 0
+                        "share": 0.0
                     },
                     {
                         "qty": 0,
                         "amount": 0,
-                        "share": 0
+                        "share": 0.0
                     }
-                ]
+                ],
+                "name": "総計"
             },
             "yoy": {
-                "qty": 0.8368,
-                "amount": 0.9586
+                "qty": 0.836827,
+                "amount": 0.958624
             },
             "rows": [
                 {
-                    "name": "WS",
                     "qty": 110135,
                     "amount": 110941966,
-                    "share": 0.1336,
-                    "yoy": 0.895,
+                    "share": 0.13359,
                     "monthly": [
                         {
                             "qty": 12400,
                             "amount": 11499919,
-                            "share": 0.1522
+                            "share": 0.152177
                         },
                         {
                             "qty": 2916,
                             "amount": 2606730,
-                            "share": 0.0661
+                            "share": 0.066065
                         },
                         {
                             "qty": 15876,
                             "amount": 17258939,
-                            "share": 0.1786
+                            "share": 0.178632
                         },
                         {
                             "qty": 21043,
                             "amount": 20432243,
-                            "share": 0.1843
+                            "share": 0.184287
                         },
                         {
                             "qty": 5763,
                             "amount": 5425259,
-                            "share": 0.0668
+                            "share": 0.066751
                         },
                         {
                             "qty": 7988,
@@ -129,12 +126,12 @@
                         {
                             "qty": 16215,
                             "amount": 18788965,
-                            "share": 0.2071
+                            "share": 0.207129
                         },
                         {
                             "qty": 12697,
                             "amount": 11193741,
-                            "share": 0.1552
+                            "share": 0.155209
                         },
                         {
                             "qty": 8091,
@@ -144,1280 +141,1279 @@
                         {
                             "qty": 7146,
                             "amount": 7250236,
-                            "share": 0.0896
+                            "share": 0.089589
                         },
                         {
-                            "qty": 0,
-                            "amount": 0,
-                            "share": 0
+                            "qty": null,
+                            "amount": null,
+                            "share": null
                         },
                         {
-                            "qty": 0,
-                            "amount": 0,
-                            "share": 0
+                            "qty": null,
+                            "amount": null,
+                            "share": null
                         }
-                    ]
+                    ],
+                    "yoy": 0.895015,
+                    "name": "WS"
                 },
                 {
-                    "name": "イシグロ",
                     "qty": 13104,
                     "amount": 16342787,
-                    "share": 0.0197,
-                    "yoy": 1.1779,
+                    "share": 0.019679,
                     "monthly": [
                         {
                             "qty": 926,
                             "amount": 839519,
-                            "share": 0.0111
+                            "share": 0.011109
                         },
                         {
                             "qty": 482,
                             "amount": 462585,
-                            "share": 0.0117
+                            "share": 0.011724
                         },
                         {
                             "qty": 1299,
                             "amount": 1347036,
-                            "share": 0.0139
+                            "share": 0.013942
                         },
                         {
                             "qty": 1623,
                             "amount": 2491072,
-                            "share": 0.0225
+                            "share": 0.022468
                         },
                         {
                             "qty": 1664,
                             "amount": 1699842,
-                            "share": 0.0209
+                            "share": 0.020914
                         },
                         {
                             "qty": 1297,
                             "amount": 2118285,
-                            "share": 0.0236
+                            "share": 0.023636
                         },
                         {
                             "qty": 2456,
                             "amount": 2757856,
-                            "share": 0.0304
+                            "share": 0.030403
                         },
                         {
                             "qty": 887,
                             "amount": 1812152,
-                            "share": 0.0251
+                            "share": 0.025127
                         },
                         {
                             "qty": 1313,
                             "amount": 1606123,
-                            "share": 0.0172
+                            "share": 0.017216
                         },
                         {
                             "qty": 1157,
                             "amount": 1208317,
-                            "share": 0.0149
+                            "share": 0.014931
                         },
                         {
-                            "qty": 0,
-                            "amount": 0,
-                            "share": 0
+                            "qty": null,
+                            "amount": null,
+                            "share": null
                         },
                         {
-                            "qty": 0,
-                            "amount": 0,
-                            "share": 0
+                            "qty": null,
+                            "amount": null,
+                            "share": null
                         }
-                    ]
+                    ],
+                    "yoy": 1.177889,
+                    "name": "イシグロ"
                 },
                 {
-                    "name": "エイト",
                     "qty": 26483,
                     "amount": 41975161,
-                    "share": 0.0505,
-                    "yoy": 0.911,
+                    "share": 0.050544,
                     "monthly": [
                         {
                             "qty": 952,
                             "amount": 1439010,
-                            "share": 0.019
+                            "share": 0.019042
                         },
                         {
                             "qty": 1502,
                             "amount": 2446547,
-                            "share": 0.062
+                            "share": 0.062005
                         },
                         {
                             "qty": 5931,
                             "amount": 9131522,
-                            "share": 0.0945
+                            "share": 0.094512
                         },
                         {
                             "qty": 2989,
                             "amount": 4627068,
-                            "share": 0.0417
+                            "share": 0.041733
                         },
                         {
                             "qty": 2504,
                             "amount": 4253622,
-                            "share": 0.0523
+                            "share": 0.052335
                         },
                         {
                             "qty": 3927,
                             "amount": 6954954,
-                            "share": 0.0776
+                            "share": 0.077604
                         },
                         {
                             "qty": 2331,
                             "amount": 4227272,
-                            "share": 0.0466
+                            "share": 0.046601
                         },
                         {
                             "qty": 1759,
                             "amount": 2694610,
-                            "share": 0.0374
+                            "share": 0.037363
                         },
                         {
                             "qty": 2557,
                             "amount": 3243857,
-                            "share": 0.0348
+                            "share": 0.034771
                         },
                         {
                             "qty": 2031,
                             "amount": 2956699,
-                            "share": 0.0365
+                            "share": 0.036535
                         },
                         {
-                            "qty": 0,
-                            "amount": 0,
-                            "share": 0
+                            "qty": null,
+                            "amount": null,
+                            "share": null
                         },
                         {
-                            "qty": 0,
-                            "amount": 0,
-                            "share": 0
+                            "qty": null,
+                            "amount": null,
+                            "share": null
                         }
-                    ]
+                    ],
+                    "yoy": 0.910979,
+                    "name": "エイト"
                 },
                 {
-                    "name": "かめや",
                     "qty": 22430,
                     "amount": 25607946,
-                    "share": 0.0308,
-                    "yoy": 0.9756,
+                    "share": 0.030836,
                     "monthly": [
                         {
                             "qty": 1678,
                             "amount": 1822940,
-                            "share": 0.0241
+                            "share": 0.024123
                         },
                         {
                             "qty": 2497,
                             "amount": 2599011,
-                            "share": 0.0659
+                            "share": 0.065869
                         },
                         {
                             "qty": 2445,
                             "amount": 2462445,
-                            "share": 0.0255
+                            "share": 0.025487
                         },
                         {
                             "qty": 2743,
                             "amount": 3184911,
-                            "share": 0.0287
+                            "share": 0.028726
                         },
                         {
                             "qty": 2377,
                             "amount": 2775108,
-                            "share": 0.0341
+                            "share": 0.034144
                         },
                         {
                             "qty": 2160,
                             "amount": 2451999,
-                            "share": 0.0274
+                            "share": 0.027359
                         },
                         {
                             "qty": 2441,
                             "amount": 2867270,
-                            "share": 0.0316
+                            "share": 0.031609
                         },
                         {
                             "qty": 1766,
                             "amount": 2149465,
-                            "share": 0.0298
+                            "share": 0.029804
                         },
                         {
                             "qty": 2235,
                             "amount": 2531587,
-                            "share": 0.0271
+                            "share": 0.027136
                         },
                         {
                             "qty": 2088,
                             "amount": 2763210,
-                            "share": 0.0341
+                            "share": 0.034144
                         },
                         {
-                            "qty": 0,
-                            "amount": 0,
-                            "share": 0
+                            "qty": null,
+                            "amount": null,
+                            "share": null
                         },
                         {
-                            "qty": 0,
-                            "amount": 0,
-                            "share": 0
+                            "qty": null,
+                            "amount": null,
+                            "share": null
                         }
-                    ]
+                    ],
+                    "yoy": 0.975607,
+                    "name": "かめや"
                 },
                 {
-                    "name": "タックルベリー",
                     "qty": 14526,
                     "amount": 11453122,
-                    "share": 0.0138,
-                    "yoy": 0.508,
+                    "share": 0.013791,
                     "monthly": [
                         {
                             "qty": 1974,
                             "amount": 1582107,
-                            "share": 0.0209
+                            "share": 0.020936
                         },
                         {
                             "qty": 968,
                             "amount": 752705,
-                            "share": 0.0191
+                            "share": 0.019077
                         },
                         {
                             "qty": 1004,
                             "amount": 871424,
-                            "share": 0.009
+                            "share": 0.009019
                         },
                         {
                             "qty": 1151,
                             "amount": 940885,
-                            "share": 0.0085
+                            "share": 0.008486
                         },
                         {
                             "qty": 2087,
                             "amount": 1624685,
-                            "share": 0.02
+                            "share": 0.01999
                         },
                         {
                             "qty": 1729,
                             "amount": 1326277,
-                            "share": 0.0148
+                            "share": 0.014799
                         },
                         {
                             "qty": 1420,
                             "amount": 1022410,
-                            "share": 0.0113
+                            "share": 0.011271
                         },
                         {
                             "qty": 1401,
                             "amount": 1118702,
-                            "share": 0.0155
+                            "share": 0.015512
                         },
                         {
                             "qty": 1226,
                             "amount": 917965,
-                            "share": 0.0098
+                            "share": 0.00984
                         },
                         {
                             "qty": 1566,
                             "amount": 1295962,
-                            "share": 0.016
+                            "share": 0.016014
                         },
                         {
-                            "qty": 0,
-                            "amount": 0,
-                            "share": 0
+                            "qty": null,
+                            "amount": null,
+                            "share": null
                         },
                         {
-                            "qty": 0,
-                            "amount": 0,
-                            "share": 0
+                            "qty": null,
+                            "amount": null,
+                            "share": null
                         }
-                    ]
+                    ],
+                    "yoy": 0.50796,
+                    "name": "タックルベリー"
                 },
                 {
-                    "name": "フィッシング遊",
                     "qty": 18897,
                     "amount": 19426781,
-                    "share": 0.0234,
-                    "yoy": 0.8215,
+                    "share": 0.023393,
                     "monthly": [
                         {
                             "qty": 1464,
                             "amount": 1612597,
-                            "share": 0.0213
+                            "share": 0.021339
                         },
                         {
                             "qty": 673,
                             "amount": 647268,
-                            "share": 0.0164
+                            "share": 0.016404
                         },
                         {
                             "qty": 2414,
                             "amount": 2285476,
-                            "share": 0.0237
+                            "share": 0.023655
                         },
                         {
                             "qty": 3528,
                             "amount": 4036892,
-                            "share": 0.0364
+                            "share": 0.03641
                         },
                         {
                             "qty": 1618,
                             "amount": 1475516,
-                            "share": 0.0182
+                            "share": 0.018154
                         },
                         {
                             "qty": 1394,
                             "amount": 1270119,
-                            "share": 0.0142
+                            "share": 0.014172
                         },
                         {
                             "qty": 2026,
                             "amount": 1934518,
-                            "share": 0.0213
+                            "share": 0.021326
                         },
                         {
                             "qty": 1638,
                             "amount": 1508920,
-                            "share": 0.0209
+                            "share": 0.020922
                         },
                         {
                             "qty": 2377,
                             "amount": 2556696,
-                            "share": 0.0274
+                            "share": 0.027405
                         },
                         {
                             "qty": 1765,
                             "amount": 2098779,
-                            "share": 0.0259
+                            "share": 0.025934
                         },
                         {
-                            "qty": 0,
-                            "amount": 0,
-                            "share": 0
+                            "qty": null,
+                            "amount": null,
+                            "share": null
                         },
                         {
-                            "qty": 0,
-                            "amount": 0,
-                            "share": 0
+                            "qty": null,
+                            "amount": null,
+                            "share": null
                         }
-                    ]
+                    ],
+                    "yoy": 0.821466,
+                    "name": "フィッシング遊"
                 },
                 {
-                    "name": "ブンブン",
                     "qty": 24943,
                     "amount": 30433329,
-                    "share": 0.0366,
-                    "yoy": 0.614,
+                    "share": 0.036646,
                     "monthly": [
                         {
                             "qty": 2263,
                             "amount": 2437569,
-                            "share": 0.0323
+                            "share": 0.032256
                         },
                         {
                             "qty": 1704,
                             "amount": 1968760,
-                            "share": 0.0499
+                            "share": 0.049896
                         },
                         {
                             "qty": 2421,
                             "amount": 2813697,
-                            "share": 0.0291
+                            "share": 0.029122
                         },
                         {
                             "qty": 3797,
                             "amount": 4740275,
-                            "share": 0.0428
+                            "share": 0.042754
                         },
                         {
                             "qty": 1794,
                             "amount": 2147207,
-                            "share": 0.0264
+                            "share": 0.026419
                         },
                         {
                             "qty": 2421,
                             "amount": 2751329,
-                            "share": 0.0307
+                            "share": 0.030699
                         },
                         {
                             "qty": 3896,
                             "amount": 4811872,
-                            "share": 0.053
+                            "share": 0.053046
                         },
                         {
                             "qty": 1874,
                             "amount": 2283555,
-                            "share": 0.0317
+                            "share": 0.031663
                         },
                         {
                             "qty": 3048,
                             "amount": 3947318,
-                            "share": 0.0423
+                            "share": 0.042311
                         },
                         {
                             "qty": 1725,
                             "amount": 2531747,
-                            "share": 0.0313
+                            "share": 0.031284
                         },
                         {
-                            "qty": 0,
-                            "amount": 0,
-                            "share": 0
+                            "qty": null,
+                            "amount": null,
+                            "share": null
                         },
                         {
-                            "qty": 0,
-                            "amount": 0,
-                            "share": 0
+                            "qty": null,
+                            "amount": null,
+                            "share": null
                         }
-                    ]
+                    ],
+                    "yoy": 0.613989,
+                    "name": "ブンブン"
                 },
                 {
-                    "name": "ポイント",
                     "qty": 63757,
                     "amount": 74636145,
-                    "share": 0.0899,
-                    "yoy": 0.8492,
+                    "share": 0.089873,
                     "monthly": [
                         {
                             "qty": 4533,
                             "amount": 5652740,
-                            "share": 0.0748
+                            "share": 0.074802
                         },
                         {
                             "qty": 3218,
                             "amount": 3689355,
-                            "share": 0.0935
+                            "share": 0.093503
                         },
                         {
                             "qty": 4884,
                             "amount": 5252223,
-                            "share": 0.0544
+                            "share": 0.054361
                         },
                         {
                             "qty": 9333,
                             "amount": 11845866,
-                            "share": 0.1068
+                            "share": 0.106843
                         },
                         {
                             "qty": 5580,
                             "amount": 6065801,
-                            "share": 0.0746
+                            "share": 0.074632
                         },
                         {
                             "qty": 6044,
                             "amount": 6588877,
-                            "share": 0.0735
+                            "share": 0.073519
                         },
                         {
                             "qty": 7665,
                             "amount": 9053151,
-                            "share": 0.0998
+                            "share": 0.099802
                         },
                         {
                             "qty": 7476,
                             "amount": 8913991,
-                            "share": 0.1236
+                            "share": 0.123599
                         },
                         {
                             "qty": 6173,
                             "amount": 7237806,
-                            "share": 0.0776
+                            "share": 0.077582
                         },
                         {
                             "qty": 8851,
                             "amount": 10336335,
-                            "share": 0.1277
+                            "share": 0.127723
                         },
                         {
-                            "qty": 0,
-                            "amount": 0,
-                            "share": 0
+                            "qty": null,
+                            "amount": null,
+                            "share": null
                         },
                         {
-                            "qty": 0,
-                            "amount": 0,
-                            "share": 0
+                            "qty": null,
+                            "amount": null,
+                            "share": null
                         }
-                    ]
+                    ],
+                    "yoy": 0.849245,
+                    "name": "ポイント"
                 },
                 {
-                    "name": "マックス",
                     "qty": 24656,
                     "amount": 32746514,
-                    "share": 0.0394,
-                    "yoy": 1.0378,
+                    "share": 0.039432,
                     "monthly": [
                         {
                             "qty": 1176,
                             "amount": 1610579,
-                            "share": 0.0213
+                            "share": 0.021313
                         },
                         {
                             "qty": 912,
                             "amount": 1137814,
-                            "share": 0.0288
+                            "share": 0.028837
                         },
                         {
                             "qty": 4289,
                             "amount": 5378656,
-                            "share": 0.0557
+                            "share": 0.05567
                         },
                         {
                             "qty": 5098,
                             "amount": 6651355,
-                            "share": 0.06
+                            "share": 0.059991
                         },
                         {
                             "qty": 1554,
                             "amount": 1851739,
-                            "share": 0.0228
+                            "share": 0.022783
                         },
                         {
                             "qty": 2035,
                             "amount": 2395314,
-                            "share": 0.0267
+                            "share": 0.026727
                         },
                         {
                             "qty": 2313,
                             "amount": 3159317,
-                            "share": 0.0348
+                            "share": 0.034828
                         },
                         {
                             "qty": 1960,
                             "amount": 2664921,
-                            "share": 0.037
+                            "share": 0.036951
                         },
                         {
                             "qty": 2897,
                             "amount": 4075124,
-                            "share": 0.0437
+                            "share": 0.043681
                         },
                         {
                             "qty": 2422,
                             "amount": 3821695,
-                            "share": 0.0472
+                            "share": 0.047224
                         },
                         {
-                            "qty": 0,
-                            "amount": 0,
-                            "share": 0
+                            "qty": null,
+                            "amount": null,
+                            "share": null
                         },
                         {
-                            "qty": 0,
-                            "amount": 0,
-                            "share": 0
+                            "qty": null,
+                            "amount": null,
+                            "share": null
                         }
-                    ]
+                    ],
+                    "yoy": 1.037794,
+                    "name": "マックス"
                 },
                 {
-                    "name": "上州屋",
                     "qty": 25694,
                     "amount": 31456483,
-                    "share": 0.0379,
-                    "yoy": 0.9003,
+                    "share": 0.037878,
                     "monthly": [
                         {
                             "qty": 2127,
                             "amount": 2481353,
-                            "share": 0.0328
+                            "share": 0.032835
                         },
                         {
                             "qty": 1457,
                             "amount": 1774279,
-                            "share": 0.045
+                            "share": 0.044967
                         },
                         {
                             "qty": 3518,
                             "amount": 3923108,
-                            "share": 0.0406
+                            "share": 0.040605
                         },
                         {
                             "qty": 2863,
                             "amount": 3501457,
-                            "share": 0.0316
+                            "share": 0.031581
                         },
                         {
                             "qty": 2013,
                             "amount": 2392880,
-                            "share": 0.0294
+                            "share": 0.029441
                         },
                         {
                             "qty": 4092,
                             "amount": 4932497,
-                            "share": 0.055
+                            "share": 0.055037
                         },
                         {
                             "qty": 2869,
                             "amount": 3709524,
-                            "share": 0.0409
+                            "share": 0.040894
                         },
                         {
                             "qty": 2527,
                             "amount": 3169769,
-                            "share": 0.044
+                            "share": 0.043951
                         },
                         {
                             "qty": 2997,
                             "amount": 3741682,
-                            "share": 0.0401
+                            "share": 0.040107
                         },
                         {
                             "qty": 1231,
                             "amount": 1829934,
-                            "share": 0.0226
+                            "share": 0.022612
                         },
                         {
-                            "qty": 0,
-                            "amount": 0,
-                            "share": 0
+                            "qty": null,
+                            "amount": null,
+                            "share": null
                         },
                         {
-                            "qty": 0,
-                            "amount": 0,
-                            "share": 0
+                            "qty": null,
+                            "amount": null,
+                            "share": null
                         }
-                    ]
+                    ],
+                    "yoy": 0.900316,
+                    "name": "上州屋"
                 },
                 {
-                    "name": "アマゾンDD",
                     "qty": 22928,
                     "amount": 46980464,
-                    "share": 0.0566,
-                    "yoy": 4.2653,
+                    "share": 0.056571,
                     "monthly": [
                         {
                             "qty": 2341,
                             "amount": 5206330,
-                            "share": 0.0689
+                            "share": 0.068895
                         },
                         {
                             "qty": 1498,
                             "amount": 3089150,
-                            "share": 0.0783
+                            "share": 0.078291
                         },
                         {
                             "qty": 3300,
                             "amount": 7132390,
-                            "share": 0.0738
+                            "share": 0.073821
                         },
                         {
                             "qty": 2960,
                             "amount": 5910710,
-                            "share": 0.0533
+                            "share": 0.053311
                         },
                         {
                             "qty": 2611,
                             "amount": 5019600,
-                            "share": 0.0618
+                            "share": 0.06176
                         },
                         {
                             "qty": 2534,
                             "amount": 5036360,
-                            "share": 0.0562
+                            "share": 0.056196
                         },
                         {
                             "qty": 2239,
                             "amount": 4489240,
-                            "share": 0.0495
+                            "share": 0.049489
                         },
                         {
                             "qty": 2269,
                             "amount": 4419980,
-                            "share": 0.0613
+                            "share": 0.061286
                         },
                         {
                             "qty": 1743,
                             "amount": 3566629,
-                            "share": 0.0382
+                            "share": 0.038231
                         },
                         {
                             "qty": 1433,
                             "amount": 3110075,
-                            "share": 0.0384
+                            "share": 0.03843
                         },
                         {
-                            "qty": 0,
-                            "amount": 0,
-                            "share": 0
+                            "qty": null,
+                            "amount": null,
+                            "share": null
                         },
                         {
-                            "qty": 0,
-                            "amount": 0,
-                            "share": 0
+                            "qty": null,
+                            "amount": null,
+                            "share": null
                         }
-                    ]
+                    ],
+                    "yoy": 4.265275,
+                    "name": "アマゾンDD"
                 },
                 {
-                    "name": "アマゾンT",
                     "qty": 32027,
                     "amount": 50053704,
-                    "share": 0.0603,
-                    "yoy": 0.8544,
+                    "share": 0.060272,
                     "monthly": [
                         {
                             "qty": 1823,
                             "amount": 2046634,
-                            "share": 0.0271
+                            "share": 0.027083
                         },
                         {
                             "qty": 712,
                             "amount": 921469,
-                            "share": 0.0234
+                            "share": 0.023354
                         },
                         {
                             "qty": 1298,
                             "amount": 1613225,
-                            "share": 0.0167
+                            "share": 0.016697
                         },
                         {
                             "qty": 1843,
                             "amount": 2459957,
-                            "share": 0.0222
+                            "share": 0.022187
                         },
                         {
                             "qty": 1794,
                             "amount": 2436315,
-                            "share": 0.03
+                            "share": 0.029976
                         },
                         {
                             "qty": 4752,
                             "amount": 7270629,
-                            "share": 0.0811
+                            "share": 0.081126
                         },
                         {
                             "qty": 3372,
                             "amount": 4738911,
-                            "share": 0.0522
+                            "share": 0.052242
                         },
                         {
                             "qty": 4770,
                             "amount": 7681416,
-                            "share": 0.1065
+                            "share": 0.106508
                         },
                         {
                             "qty": 5824,
                             "amount": 9135786,
-                            "share": 0.0979
+                            "share": 0.097926
                         },
                         {
                             "qty": 5839,
                             "amount": 11749362,
-                            "share": 0.1452
+                            "share": 0.145184
                         },
                         {
-                            "qty": 0,
-                            "amount": 0,
-                            "share": 0
+                            "qty": null,
+                            "amount": null,
+                            "share": null
                         },
                         {
-                            "qty": 0,
-                            "amount": 0,
-                            "share": 0
+                            "qty": null,
+                            "amount": null,
+                            "share": null
                         }
-                    ]
+                    ],
+                    "yoy": 0.854443,
+                    "name": "アマゾンT"
                 },
                 {
-                    "name": "チェーン以外イガイ",
                     "qty": 193396,
                     "amount": 259060916,
-                    "share": 0.3119,
-                    "yoy": 0.8879,
+                    "share": 0.311947,
                     "monthly": [
                         {
                             "qty": 22679,
                             "amount": 31406349,
-                            "share": 0.4156
+                            "share": 0.415595
                         },
                         {
                             "qty": 16235,
                             "amount": 13252713,
-                            "share": 0.3359
+                            "share": 0.335877
                         },
                         {
                             "qty": 21606,
                             "amount": 30790140,
-                            "share": 0.3187
+                            "share": 0.318681
                         },
                         {
                             "qty": 28148,
                             "amount": 34961721,
-                            "share": 0.3153
+                            "share": 0.315334
                         },
                         {
                             "qty": 15762,
                             "amount": 28933941,
-                            "share": 0.356
+                            "share": 0.355996
                         },
                         {
                             "qty": 19994,
                             "amount": 26378874,
-                            "share": 0.2943
+                            "share": 0.294336
                         },
                         {
                             "qty": 15365,
                             "amount": 21253560,
-                            "share": 0.2343
+                            "share": 0.234299
                         },
                         {
                             "qty": 13227,
                             "amount": 17697882,
-                            "share": 0.2454
+                            "share": 0.245394
                         },
                         {
                             "qty": 23507,
                             "amount": 32704970,
-                            "share": 0.3506
+                            "share": 0.350564
                         },
                         {
                             "qty": 16873,
                             "amount": 21680766,
-                            "share": 0.2679
+                            "share": 0.267903
                         },
                         {
-                            "qty": 0,
-                            "amount": 0,
-                            "share": 0
+                            "qty": null,
+                            "amount": null,
+                            "share": null
                         },
                         {
-                            "qty": 0,
-                            "amount": 0,
-                            "share": 0
+                            "qty": null,
+                            "amount": null,
+                            "share": null
                         }
-                    ]
+                    ],
+                    "yoy": 0.887923,
+                    "name": "チェーン以外イガイ"
                 },
                 {
-                    "name": "海外カイガイ",
                     "qty": 60689,
                     "amount": 71622555,
-                    "share": 0.0862,
-                    "yoy": 1.9831,
+                    "share": 0.086244,
                     "monthly": [
                         {
                             "qty": 4396,
                             "amount": 4785580,
-                            "share": 0.0633
+                            "share": 0.063327
                         },
                         {
                             "qty": 3515,
                             "amount": 3540674,
-                            "share": 0.0897
+                            "share": 0.089735
                         },
                         {
                             "qty": 4380,
                             "amount": 5251266,
-                            "share": 0.0544
+                            "share": 0.054351
                         },
                         {
                             "qty": 2350,
                             "amount": 3604019,
-                            "share": 0.0325
+                            "share": 0.032506
                         },
                         {
                             "qty": 12499,
                             "amount": 15125622,
-                            "share": 0.1861
+                            "share": 0.186102
                         },
                         {
                             "qty": 7503,
                             "amount": 11063893,
-                            "share": 0.1235
+                            "share": 0.123451
                         },
                         {
                             "qty": 7975,
                             "amount": 7677280,
-                            "share": 0.0846
+                            "share": 0.084634
                         },
                         {
                             "qty": 3463,
                             "amount": 3453623,
-                            "share": 0.0479
+                            "share": 0.047887
                         },
                         {
                             "qty": 7861,
                             "amount": 9848699,
-                            "share": 0.1056
+                            "share": 0.105568
                         },
                         {
                             "qty": 6747,
                             "amount": 7271899,
-                            "share": 0.0899
+                            "share": 0.089857
                         },
                         {
                             "qty": 0,
                             "amount": 0,
-                            "share": 0
+                            "share": null
                         },
                         {
                             "qty": 0,
                             "amount": 0,
-                            "share": 0
+                            "share": null
                         }
-                    ]
+                    ],
+                    "yoy": 1.983102,
+                    "name": "海外カイガイ"
                 },
                 {
-                    "name": "OEM",
                     "qty": 214000,
                     "amount": 7727830,
-                    "share": 0.0093,
-                    "yoy": 0.9048,
+                    "share": 0.009305,
                     "monthly": [
                         {
                             "qty": 33600,
                             "amount": 1146310,
-                            "share": 0.0152
+                            "share": 0.015169
                         },
                         {
                             "qty": 25000,
                             "amount": 568000,
-                            "share": 0.0144
+                            "share": 0.014395
                         },
                         {
                             "qty": 37500,
                             "amount": 1105950,
-                            "share": 0.0114
+                            "share": 0.011447
                         },
                         {
                             "qty": 12100,
                             "amount": 1483710,
-                            "share": 0.0134
+                            "share": 0.013382
                         },
                         {
                             "qty": 4000,
                             "amount": 49000,
-                            "share": 0.0006
+                            "share": 0.000603
                         },
                         {
                             "qty": 19000,
                             "amount": 684700,
-                            "share": 0.0076
+                            "share": 0.00764
                         },
                         {
                             "qty": 5500,
                             "amount": 220150,
-                            "share": 0.0024
+                            "share": 0.002427
                         },
                         {
                             "qty": 61300,
                             "amount": 1357560,
-                            "share": 0.0188
+                            "share": 0.018824
                         },
                         {
                             "qty": 1000,
                             "amount": 89800,
-                            "share": 0.001
+                            "share": 0.000963
                         },
                         {
                             "qty": 15000,
                             "amount": 1022650,
-                            "share": 0.0126
+                            "share": 0.012637
                         },
                         {
-                            "qty": 0,
-                            "amount": 0,
-                            "share": 0
+                            "qty": null,
+                            "amount": null,
+                            "share": null
                         },
                         {
-                            "qty": 0,
-                            "amount": 0,
-                            "share": 0
+                            "qty": null,
+                            "amount": null,
+                            "share": null
                         }
-                    ]
+                    ],
+                    "yoy": 0.904758,
+                    "name": "OEM"
                 }
             ],
             "monthlyYoy": [
-                1.5284, 0.8508, 1.1928, 1.2964, 1.0368, 1.1076, 1.1313, 1.2938,
-                1.227, 0.9726, 0, 0
+                1.528447, 0.850847, 1.192782, 1.296377, 1.036821, 1.107635,
+                1.131312, 1.293832, 1.226969, 0.972618, 0.0, 0.0
             ]
         },
         "2025": {
             "total": {
-                "name": "総計",
                 "qty": 1036851,
                 "amount": 866310237,
                 "share": 1.0,
-                "yoy": null,
                 "monthly": [
                     {
                         "qty": 40781,
                         "amount": 49442029,
-                        "share": 0.0571
+                        "share": 0.057072
                     },
                     {
                         "qty": 74751,
                         "amount": 46373878,
-                        "share": 0.0535
+                        "share": 0.05353
                     },
                     {
                         "qty": 84419,
                         "amount": 81001822,
-                        "share": 0.0935
+                        "share": 0.093502
                     },
                     {
                         "qty": 117309,
                         "amount": 85524631,
-                        "share": 0.0987
+                        "share": 0.098723
                     },
                     {
                         "qty": 108322,
                         "amount": 78389714,
-                        "share": 0.0905
+                        "share": 0.090487
                     },
                     {
                         "qty": 95993,
                         "amount": 80912566,
-                        "share": 0.0934
+                        "share": 0.093399
                     },
                     {
                         "qty": 109211,
                         "amount": 80182352,
-                        "share": 0.0926
+                        "share": 0.092556
                     },
                     {
                         "qty": 49734,
                         "amount": 55741597,
-                        "share": 0.0643
+                        "share": 0.064344
                     },
                     {
                         "qty": 76640,
                         "amount": 76034900,
-                        "share": 0.0878
+                        "share": 0.087769
                     },
                     {
                         "qty": 101480,
                         "amount": 83206019,
-                        "share": 0.096
+                        "share": 0.096046
                     },
                     {
                         "qty": 99680,
                         "amount": 73507277,
-                        "share": 0.0849
+                        "share": 0.084851
                     },
                     {
                         "qty": 78531,
                         "amount": 75993452,
-                        "share": 0.0877
+                        "share": 0.087721
                     }
-                ]
+                ],
+                "name": "総計"
             },
             "yoy": {
-                "qty": 0.966,
-                "amount": 0.8964
+                "qty": 0.966047,
+                "amount": 0.89645
             },
             "rows": [
                 {
-                    "name": "WS",
                     "qty": 117621,
                     "amount": 123955478,
-                    "share": 0.1431,
-                    "yoy": 1.1219,
+                    "share": 0.143084,
                     "monthly": [
                         {
                             "qty": 6510,
                             "amount": 6509129,
-                            "share": 0.1317
+                            "share": 0.131652
                         },
                         {
                             "qty": 7874,
                             "amount": 8033664,
-                            "share": 0.1732
+                            "share": 0.173237
                         },
                         {
                             "qty": 11840,
                             "amount": 10563552,
-                            "share": 0.1304
+                            "share": 0.130411
                         },
                         {
                             "qty": 16231,
                             "amount": 16912627,
-                            "share": 0.1978
+                            "share": 0.197752
                         },
                         {
                             "qty": 7650,
                             "amount": 9177513,
-                            "share": 0.1171
+                            "share": 0.117075
                         },
                         {
                             "qty": 6460,
                             "amount": 6250924,
-                            "share": 0.0773
+                            "share": 0.077255
                         },
                         {
                             "qty": 13189,
                             "amount": 15497705,
-                            "share": 0.1933
+                            "share": 0.193281
                         },
                         {
                             "qty": 7381,
                             "amount": 8257410,
-                            "share": 0.1481
+                            "share": 0.148137
                         },
                         {
                             "qty": 13865,
                             "amount": 15477810,
-                            "share": 0.2036
+                            "share": 0.203562
                         },
                         {
                             "qty": 7130,
                             "amount": 6951099,
-                            "share": 0.0835
+                            "share": 0.083541
                         },
                         {
                             "qty": 9003,
                             "amount": 9426568,
-                            "share": 0.1282
+                            "share": 0.12824
                         },
                         {
                             "qty": 10488,
                             "amount": 10897477,
                             "share": 0.1434
                         }
-                    ]
+                    ],
+                    "yoy": 1.121879,
+                    "name": "WS"
                 },
                 {
-                    "name": "イシグロ",
                     "qty": 12473,
                     "amount": 13874643,
-                    "share": 0.016,
-                    "yoy": 1.9812,
+                    "share": 0.016016,
                     "monthly": [
                         {
                             "qty": 590,
                             "amount": 604269,
-                            "share": 0.0122
+                            "share": 0.012222
                         },
                         {
                             "qty": 17,
                             "amount": 16785,
-                            "share": 0.0004
+                            "share": 0.000362
                         },
                         {
                             "qty": 519,
                             "amount": 724581,
-                            "share": 0.0089
+                            "share": 0.008945
                         },
                         {
                             "qty": 671,
                             "amount": 531099,
-                            "share": 0.0062
+                            "share": 0.00621
                         },
                         {
                             "qty": 1135,
                             "amount": 1222524,
-                            "share": 0.0156
+                            "share": 0.015595
                         },
                         {
                             "qty": 1001,
                             "amount": 909567,
-                            "share": 0.0112
+                            "share": 0.011241
                         },
                         {
                             "qty": 1233,
                             "amount": 1413405,
-                            "share": 0.0176
+                            "share": 0.017627
                         },
                         {
                             "qty": 1871,
                             "amount": 1968363,
-                            "share": 0.0353
+                            "share": 0.035312
                         },
                         {
                             "qty": 1307,
                             "amount": 1700307,
-                            "share": 0.0224
+                            "share": 0.022362
                         },
                         {
                             "qty": 1439,
                             "amount": 1453509,
-                            "share": 0.0175
+                            "share": 0.017469
                         },
                         {
                             "qty": 1262,
                             "amount": 1304640,
-                            "share": 0.0177
+                            "share": 0.017748
                         },
                         {
                             "qty": 1428,
                             "amount": 2025594,
-                            "share": 0.0267
+                            "share": 0.026655
                         }
-                    ]
+                    ],
+                    "yoy": 1.981227,
+                    "name": "イシグロ"
                 },
                 {
-                    "name": "エイト",
                     "qty": 32347,
                     "amount": 46076970,
-                    "share": 0.0532,
-                    "yoy": 1.1792,
+                    "share": 0.053188,
                     "monthly": [
                         {
                             "qty": 1048,
                             "amount": 1521702,
-                            "share": 0.0308
+                            "share": 0.030777
                         },
                         {
                             "qty": 2180,
                             "amount": 3015153,
-                            "share": 0.065
+                            "share": 0.065018
                         },
                         {
                             "qty": 3771,
                             "amount": 5508832,
-                            "share": 0.068
+                            "share": 0.068009
                         },
                         {
                             "qty": 2935,
                             "amount": 4630772,
-                            "share": 0.0541
+                            "share": 0.054145
                         },
                         {
                             "qty": 2531,
                             "amount": 3318342,
-                            "share": 0.0423
+                            "share": 0.042331
                         },
                         {
                             "qty": 4270,
                             "amount": 5342391,
-                            "share": 0.066
+                            "share": 0.066027
                         },
                         {
                             "qty": 2157,
                             "amount": 3062574,
-                            "share": 0.0382
+                            "share": 0.038195
                         },
                         {
                             "qty": 1769,
                             "amount": 1954287,
-                            "share": 0.0351
+                            "share": 0.03506
                         },
                         {
                             "qty": 2118,
                             "amount": 2254619,
-                            "share": 0.0297
+                            "share": 0.029652
                         },
                         {
                             "qty": 5096,
                             "amount": 9303201,
-                            "share": 0.1118
+                            "share": 0.111809
                         },
                         {
                             "qty": 2309,
                             "amount": 2889486,
-                            "share": 0.0393
+                            "share": 0.039309
                         },
                         {
                             "qty": 2163,
                             "amount": 3275611,
-                            "share": 0.0431
+                            "share": 0.043104
                         }
-                    ]
+                    ],
+                    "yoy": 1.179173,
+                    "name": "エイト"
                 },
                 {
-                    "name": "かめや",
                     "qty": 23294,
                     "amount": 26248229,
-                    "share": 0.0303,
-                    "yoy": 0.9845,
+                    "share": 0.030299,
                     "monthly": [
                         {
                             "qty": 920,
@@ -1427,819 +1423,825 @@
                         {
                             "qty": 2225,
                             "amount": 2321036,
-                            "share": 0.0501
+                            "share": 0.050051
                         },
                         {
                             "qty": 1780,
                             "amount": 1936818,
-                            "share": 0.0239
+                            "share": 0.023911
                         },
                         {
                             "qty": 2798,
                             "amount": 3020184,
-                            "share": 0.0353
+                            "share": 0.035314
                         },
                         {
                             "qty": 1415,
                             "amount": 1732842,
-                            "share": 0.0221
+                            "share": 0.022105
                         },
                         {
                             "qty": 1738,
                             "amount": 2056248,
-                            "share": 0.0254
+                            "share": 0.025413
                         },
                         {
                             "qty": 2071,
                             "amount": 2176047,
-                            "share": 0.0271
+                            "share": 0.027139
                         },
                         {
                             "qty": 2098,
                             "amount": 2322396,
-                            "share": 0.0417
+                            "share": 0.041664
                         },
                         {
                             "qty": 1674,
                             "amount": 1905750,
-                            "share": 0.0251
+                            "share": 0.025064
                         },
                         {
                             "qty": 2177,
                             "amount": 2366712,
-                            "share": 0.0284
+                            "share": 0.028444
                         },
                         {
                             "qty": 1990,
                             "amount": 2417850,
-                            "share": 0.0329
+                            "share": 0.032893
                         },
                         {
                             "qty": 2408,
                             "amount": 2993607,
-                            "share": 0.0394
+                            "share": 0.039393
                         }
-                    ]
+                    ],
+                    "yoy": 0.98451,
+                    "name": "かめや"
                 },
                 {
-                    "name": "タックルベリー",
                     "qty": 31037,
                     "amount": 22547307,
-                    "share": 0.026,
-                    "yoy": 0.9392,
+                    "share": 0.026027,
                     "monthly": [
                         {
                             "qty": 2408,
                             "amount": 1777986,
-                            "share": 0.036
+                            "share": 0.035961
                         },
                         {
                             "qty": 1413,
                             "amount": 916551,
-                            "share": 0.0198
+                            "share": 0.019764
                         },
                         {
                             "qty": 3382,
                             "amount": 2390427,
-                            "share": 0.0295
+                            "share": 0.029511
                         },
                         {
                             "qty": 3090,
                             "amount": 2221389,
-                            "share": 0.026
+                            "share": 0.025974
                         },
                         {
                             "qty": 3809,
                             "amount": 2588364,
-                            "share": 0.033
+                            "share": 0.033019
                         },
                         {
                             "qty": 2312,
                             "amount": 1639728,
-                            "share": 0.0203
+                            "share": 0.020265
                         },
                         {
                             "qty": 2556,
                             "amount": 1788795,
-                            "share": 0.0223
+                            "share": 0.022309
                         },
                         {
                             "qty": 2974,
                             "amount": 2135052,
-                            "share": 0.0383
+                            "share": 0.038303
                         },
                         {
                             "qty": 2592,
                             "amount": 1937430,
-                            "share": 0.0255
+                            "share": 0.025481
                         },
                         {
                             "qty": 3798,
                             "amount": 2817984,
-                            "share": 0.0339
+                            "share": 0.033868
                         },
                         {
                             "qty": 1916,
                             "amount": 1492878,
-                            "share": 0.0203
+                            "share": 0.020309
                         },
                         {
                             "qty": 787,
                             "amount": 840723,
-                            "share": 0.0111
+                            "share": 0.011063
                         }
-                    ]
+                    ],
+                    "yoy": 0.939197,
+                    "name": "タックルベリー"
                 },
                 {
-                    "name": "フィッシング遊",
                     "qty": 23680,
                     "amount": 23648904,
-                    "share": 0.0273,
-                    "yoy": 0.9092,
+                    "share": 0.027298,
                     "monthly": [
                         {
                             "qty": 1385,
                             "amount": 1433637,
-                            "share": 0.029
+                            "share": 0.028996
                         },
                         {
                             "qty": 742,
                             "amount": 695763,
-                            "share": 0.015
+                            "share": 0.015003
                         },
                         {
                             "qty": 2609,
                             "amount": 2509431,
-                            "share": 0.031
+                            "share": 0.03098
                         },
                         {
                             "qty": 2612,
                             "amount": 2488437,
-                            "share": 0.0291
+                            "share": 0.029096
                         },
                         {
                             "qty": 2947,
                             "amount": 2996415,
-                            "share": 0.0382
+                            "share": 0.038225
                         },
                         {
                             "qty": 1717,
                             "amount": 1712385,
-                            "share": 0.0212
+                            "share": 0.021163
                         },
                         {
                             "qty": 2835,
                             "amount": 2595600,
-                            "share": 0.0324
+                            "share": 0.032371
                         },
                         {
                             "qty": 1432,
                             "amount": 1381338,
-                            "share": 0.0248
+                            "share": 0.024781
                         },
                         {
                             "qty": 2063,
                             "amount": 2132640,
-                            "share": 0.028
+                            "share": 0.028048
                         },
                         {
                             "qty": 1824,
                             "amount": 1873836,
-                            "share": 0.0225
+                            "share": 0.02252
                         },
                         {
                             "qty": 1455,
                             "amount": 1497725,
-                            "share": 0.0204
+                            "share": 0.020375
                         },
                         {
                             "qty": 2059,
                             "amount": 2331697,
-                            "share": 0.0307
+                            "share": 0.030683
                         }
-                    ]
+                    ],
+                    "yoy": 0.909217,
+                    "name": "フィッシング遊"
                 },
                 {
-                    "name": "ブンブン",
                     "qty": 39594,
                     "amount": 49566605,
-                    "share": 0.0572,
-                    "yoy": 0.9921,
+                    "share": 0.057216,
                     "monthly": [
                         {
                             "qty": 2583,
                             "amount": 2769075,
-                            "share": 0.056
+                            "share": 0.056007
                         },
                         {
                             "qty": 3056,
                             "amount": 3438228,
-                            "share": 0.0741
+                            "share": 0.074141
                         },
                         {
                             "qty": 2728,
                             "amount": 3141387,
-                            "share": 0.0388
+                            "share": 0.038782
                         },
                         {
                             "qty": 3382,
                             "amount": 4045716,
-                            "share": 0.0473
+                            "share": 0.047305
                         },
                         {
                             "qty": 3560,
                             "amount": 4183770,
-                            "share": 0.0534
+                            "share": 0.053371
                         },
                         {
                             "qty": 3613,
                             "amount": 4986911,
-                            "share": 0.0616
+                            "share": 0.061633
                         },
                         {
                             "qty": 4781,
                             "amount": 6579782,
-                            "share": 0.0821
+                            "share": 0.08206
                         },
                         {
                             "qty": 2835,
                             "amount": 3352821,
-                            "share": 0.0601
+                            "share": 0.060149
                         },
                         {
                             "qty": 2761,
                             "amount": 3597099,
-                            "share": 0.0473
+                            "share": 0.047309
                         },
                         {
                             "qty": 3865,
                             "amount": 5191461,
-                            "share": 0.0624
+                            "share": 0.062393
                         },
                         {
                             "qty": 2988,
                             "amount": 4343448,
-                            "share": 0.0591
+                            "share": 0.059089
                         },
                         {
                             "qty": 3442,
                             "amount": 3936907,
-                            "share": 0.0518
+                            "share": 0.051806
                         }
-                    ]
+                    ],
+                    "yoy": 0.992056,
+                    "name": "ブンブン"
                 },
                 {
-                    "name": "ポイント",
                     "qty": 85136,
                     "amount": 87885250,
-                    "share": 0.1014,
-                    "yoy": 0.8687,
+                    "share": 0.101448,
                     "monthly": [
                         {
                             "qty": 3908,
                             "amount": 3640569,
-                            "share": 0.0736
+                            "share": 0.073633
                         },
                         {
                             "qty": 1661,
                             "amount": 1597012,
-                            "share": 0.0344
+                            "share": 0.034438
                         },
                         {
                             "qty": 7739,
                             "amount": 6849902,
-                            "share": 0.0846
+                            "share": 0.084565
                         },
                         {
                             "qty": 9533,
                             "amount": 9269257,
-                            "share": 0.1084
+                            "share": 0.108381
                         },
                         {
                             "qty": 9100,
                             "amount": 9920229,
-                            "share": 0.1265
+                            "share": 0.12655
                         },
                         {
                             "qty": 11005,
                             "amount": 11880515,
-                            "share": 0.1468
+                            "share": 0.146832
                         },
                         {
                             "qty": 8248,
                             "amount": 9175875,
-                            "share": 0.1144
+                            "share": 0.114438
                         },
                         {
                             "qty": 4396,
                             "amount": 5491083,
-                            "share": 0.0985
+                            "share": 0.09851
                         },
                         {
                             "qty": 9007,
                             "amount": 9215048,
-                            "share": 0.1212
+                            "share": 0.121195
                         },
                         {
                             "qty": 4133,
                             "amount": 3954210,
-                            "share": 0.0475
+                            "share": 0.047523
                         },
                         {
                             "qty": 6911,
                             "amount": 7227105,
-                            "share": 0.0983
+                            "share": 0.098318
                         },
                         {
                             "qty": 9495,
                             "amount": 9664445,
-                            "share": 0.1272
+                            "share": 0.127175
                         }
-                    ]
+                    ],
+                    "yoy": 0.868654,
+                    "name": "ポイント"
                 },
                 {
-                    "name": "マックス",
                     "qty": 24507,
                     "amount": 31553976,
-                    "share": 0.0364,
-                    "yoy": 1.0872,
+                    "share": 0.036423,
                     "monthly": [
                         {
                             "qty": 1591,
                             "amount": 2063059,
-                            "share": 0.0417
+                            "share": 0.041727
                         },
                         {
                             "qty": 895,
                             "amount": 1221336,
-                            "share": 0.0263
+                            "share": 0.026337
                         },
                         {
                             "qty": 2307,
                             "amount": 2832030,
-                            "share": 0.035
+                            "share": 0.034963
                         },
                         {
                             "qty": 2557,
                             "amount": 3247224,
-                            "share": 0.038
+                            "share": 0.037968
                         },
                         {
                             "qty": 2617,
                             "amount": 3297051,
-                            "share": 0.0421
+                            "share": 0.04206
                         },
                         {
                             "qty": 2606,
                             "amount": 3526542,
-                            "share": 0.0436
+                            "share": 0.043585
                         },
                         {
                             "qty": 1650,
                             "amount": 2172834,
-                            "share": 0.0271
+                            "share": 0.027099
                         },
                         {
                             "qty": 1359,
                             "amount": 1917234,
-                            "share": 0.0344
+                            "share": 0.034395
                         },
                         {
                             "qty": 3081,
                             "amount": 4114965,
-                            "share": 0.0541
+                            "share": 0.054119
                         },
                         {
                             "qty": 3004,
                             "amount": 3806447,
-                            "share": 0.0457
+                            "share": 0.045747
                         },
                         {
                             "qty": 1114,
                             "amount": 1379367,
-                            "share": 0.0188
+                            "share": 0.018765
                         },
                         {
                             "qty": 1726,
                             "amount": 1975887,
-                            "share": 0.026
+                            "share": 0.026001
                         }
-                    ]
+                    ],
+                    "yoy": 1.087196,
+                    "name": "マックス"
                 },
                 {
-                    "name": "上州屋",
                     "qty": 30257,
                     "amount": 34939374,
-                    "share": 0.0403,
-                    "yoy": 1.0238,
+                    "share": 0.040331,
                     "monthly": [
                         {
                             "qty": 2120,
                             "amount": 2570529,
-                            "share": 0.052
+                            "share": 0.051991
                         },
                         {
                             "qty": 1874,
                             "amount": 2069523,
-                            "share": 0.0446
+                            "share": 0.044627
                         },
                         {
                             "qty": 3171,
                             "amount": 3433383,
-                            "share": 0.0424
+                            "share": 0.042386
                         },
                         {
                             "qty": 3402,
                             "amount": 3595932,
-                            "share": 0.042
+                            "share": 0.042046
                         },
                         {
                             "qty": 2269,
                             "amount": 2716518,
-                            "share": 0.0347
+                            "share": 0.034654
                         },
                         {
                             "qty": 2069,
                             "amount": 2431044,
-                            "share": 0.03
+                            "share": 0.030045
                         },
                         {
                             "qty": 3051,
                             "amount": 3602394,
-                            "share": 0.0449
+                            "share": 0.044928
                         },
                         {
                             "qty": 2481,
                             "amount": 3086010,
-                            "share": 0.0554
+                            "share": 0.055363
                         },
                         {
                             "qty": 1980,
                             "amount": 2321856,
-                            "share": 0.0305
+                            "share": 0.030537
                         },
                         {
                             "qty": 1953,
                             "amount": 2399472,
-                            "share": 0.0288
+                            "share": 0.028838
                         },
                         {
                             "qty": 3581,
                             "amount": 4069053,
-                            "share": 0.0554
+                            "share": 0.055356
                         },
                         {
                             "qty": 2306,
                             "amount": 2643660,
-                            "share": 0.0348
+                            "share": 0.034788
                         }
-                    ]
+                    ],
+                    "yoy": 1.023756,
+                    "name": "上州屋"
                 },
                 {
-                    "name": "アマゾンDD",
                     "qty": 4456,
                     "amount": 11014640,
-                    "share": 0.0127,
-                    "yoy": null,
+                    "share": 0.012714,
                     "monthly": [
                         {
-                            "qty": 0,
-                            "amount": 0,
-                            "share": 0
+                            "qty": null,
+                            "amount": null,
+                            "share": 0.0
                         },
                         {
-                            "qty": 0,
-                            "amount": 0,
-                            "share": 0
+                            "qty": null,
+                            "amount": null,
+                            "share": 0.0
                         },
                         {
-                            "qty": 0,
-                            "amount": 0,
-                            "share": 0
+                            "qty": null,
+                            "amount": null,
+                            "share": 0.0
                         },
                         {
-                            "qty": 0,
-                            "amount": 0,
-                            "share": 0
+                            "qty": null,
+                            "amount": null,
+                            "share": 0.0
                         },
                         {
-                            "qty": 0,
-                            "amount": 0,
-                            "share": 0
+                            "qty": null,
+                            "amount": null,
+                            "share": 0.0
                         },
                         {
-                            "qty": 0,
-                            "amount": 0,
-                            "share": 0
+                            "qty": null,
+                            "amount": null,
+                            "share": 0.0
                         },
                         {
-                            "qty": 0,
-                            "amount": 0,
-                            "share": 0
+                            "qty": null,
+                            "amount": null,
+                            "share": 0.0
                         },
                         {
-                            "qty": 0,
-                            "amount": 0,
-                            "share": 0
+                            "qty": null,
+                            "amount": null,
+                            "share": 0.0
                         },
                         {
-                            "qty": 0,
-                            "amount": 0,
-                            "share": 0
+                            "qty": null,
+                            "amount": null,
+                            "share": 0.0
                         },
                         {
                             "qty": 1108,
                             "amount": 2934890,
-                            "share": 0.0353
+                            "share": 0.035273
                         },
                         {
                             "qty": 1682,
                             "amount": 4330170,
-                            "share": 0.0589
+                            "share": 0.058908
                         },
                         {
                             "qty": 1666,
                             "amount": 3749580,
-                            "share": 0.0493
+                            "share": 0.049341
                         }
-                    ]
+                    ],
+                    "yoy": null,
+                    "name": "アマゾンDD"
                 },
                 {
-                    "name": "アマゾンT",
                     "qty": 37736,
                     "amount": 58580496,
-                    "share": 0.0676,
-                    "yoy": null,
+                    "share": 0.067621,
                     "monthly": [
                         {
                             "qty": 3317,
                             "amount": 6863202,
-                            "share": 0.1388
+                            "share": 0.138813
                         },
                         {
                             "qty": 2335,
                             "amount": 4548771,
-                            "share": 0.0981
+                            "share": 0.098089
                         },
                         {
                             "qty": 5271,
                             "amount": 8509014,
-                            "share": 0.105
+                            "share": 0.105047
                         },
                         {
                             "qty": 3832,
                             "amount": 5594877,
-                            "share": 0.0654
+                            "share": 0.065418
                         },
                         {
                             "qty": 4461,
                             "amount": 6456636,
-                            "share": 0.0824
+                            "share": 0.082366
                         },
                         {
                             "qty": 3448,
                             "amount": 6558975,
-                            "share": 0.0811
+                            "share": 0.081063
                         },
                         {
                             "qty": 2723,
                             "amount": 3408363,
-                            "share": 0.0425
+                            "share": 0.042508
                         },
                         {
                             "qty": 1836,
                             "amount": 2575314,
-                            "share": 0.0462
+                            "share": 0.046201
                         },
                         {
                             "qty": 3246,
                             "amount": 4403367,
-                            "share": 0.0579
+                            "share": 0.057912
                         },
                         {
                             "qty": 3013,
                             "amount": 3789297,
-                            "share": 0.0455
+                            "share": 0.045541
                         },
                         {
                             "qty": 2488,
                             "amount": 3590271,
-                            "share": 0.0488
+                            "share": 0.048842
                         },
                         {
                             "qty": 1766,
                             "amount": 2282409,
-                            "share": 0.03
+                            "share": 0.030034
                         }
-                    ]
+                    ],
+                    "yoy": null,
+                    "name": "アマゾンT"
                 },
                 {
-                    "name": "チェーン以外イガイ",
                     "qty": 252819,
                     "amount": 291760615,
-                    "share": 0.3368,
-                    "yoy": 0.5701,
+                    "share": 0.336785,
                     "monthly": [
                         {
                             "qty": 12569,
                             "amount": 16625561,
-                            "share": 0.3363
+                            "share": 0.336264
                         },
                         {
                             "qty": 16221,
                             "amount": 15453991,
-                            "share": 0.3332
+                            "share": 0.333248
                         },
                         {
                             "qty": 20344,
                             "amount": 26250145,
-                            "share": 0.3241
+                            "share": 0.324069
                         },
                         {
                             "qty": 22852,
                             "amount": 27091153,
-                            "share": 0.3168
+                            "share": 0.316764
                         },
                         {
                             "qty": 22963,
                             "amount": 28700246,
-                            "share": 0.3661
+                            "share": 0.366123
                         },
                         {
                             "qty": 28687,
                             "amount": 30553865,
-                            "share": 0.3776
+                            "share": 0.377616
                         },
                         {
                             "qty": 19562,
                             "amount": 25199520,
-                            "share": 0.3143
+                            "share": 0.314278
                         },
                         {
                             "qty": 16129,
                             "amount": 18464837,
-                            "share": 0.3313
+                            "share": 0.331258
                         },
                         {
                             "qty": 19663,
                             "amount": 22092975,
-                            "share": 0.2906
+                            "share": 0.290564
                         },
                         {
                             "qty": 31186,
                             "amount": 31898236,
-                            "share": 0.3834
+                            "share": 0.383365
                         },
                         {
                             "qty": 20301,
                             "amount": 23993397,
-                            "share": 0.3264
+                            "share": 0.326408
                         },
                         {
                             "qty": 22342,
                             "amount": 25436689,
-                            "share": 0.3347
+                            "share": 0.334722
                         }
-                    ]
+                    ],
+                    "yoy": 0.570133,
+                    "name": "チェーン以外イガイ"
                 },
                 {
-                    "name": "海外カイガイ",
                     "qty": 37594,
                     "amount": 36116424,
-                    "share": 0.0417,
-                    "yoy": null,
+                    "share": 0.04169,
                     "monthly": [
                         {
                             "qty": 1832,
                             "amount": 2064572,
-                            "share": 0.0418
+                            "share": 0.041757
                         },
                         {
                             "qty": 2958,
                             "amount": 2095190,
-                            "share": 0.0452
+                            "share": 0.04518
                         },
                         {
                             "qty": 4558,
                             "amount": 5274228,
-                            "share": 0.0651
+                            "share": 0.065112
                         },
                         {
                             "qty": 1014,
                             "amount": 1317344,
-                            "share": 0.0154
+                            "share": 0.015403
                         },
                         {
                             "qty": 1365,
                             "amount": 1225164,
-                            "share": 0.0156
+                            "share": 0.015629
                         },
                         {
                             "qty": 3067,
                             "amount": 2330691,
-                            "share": 0.0288
+                            "share": 0.028805
                         },
                         {
                             "qty": 2455,
                             "amount": 2960842,
-                            "share": 0.0369
+                            "share": 0.036926
                         },
                         {
                             "qty": 3173,
                             "amount": 2835452,
-                            "share": 0.0509
+                            "share": 0.050868
                         },
                         {
                             "qty": 4083,
                             "amount": 4424444,
-                            "share": 0.0582
+                            "share": 0.05819
                         },
                         {
                             "qty": 3454,
                             "amount": 3556827,
-                            "share": 0.0427
+                            "share": 0.042747
                         },
                         {
                             "qty": 5680,
                             "amount": 4483184,
-                            "share": 0.061
+                            "share": 0.06099
                         },
                         {
                             "qty": 3955,
                             "amount": 3548486,
-                            "share": 0.0467
+                            "share": 0.046695
                         }
-                    ]
+                    ],
+                    "yoy": null,
+                    "name": "海外カイガイ"
                 },
                 {
-                    "name": "OEM",
                     "qty": 284300,
                     "amount": 8541326,
-                    "share": 0.0099,
-                    "yoy": 1.2028,
+                    "share": 0.009859,
                     "monthly": [
                         {
-                            "qty": 0,
-                            "amount": 0,
-                            "share": 0
+                            "qty": null,
+                            "amount": null,
+                            "share": 0.0
                         },
                         {
                             "qty": 31300,
                             "amount": 950875,
-                            "share": 0.0205
+                            "share": 0.020505
                         },
                         {
                             "qty": 14400,
                             "amount": 1078092,
-                            "share": 0.0133
+                            "share": 0.013309
                         },
                         {
                             "qty": 42400,
                             "amount": 1558620,
-                            "share": 0.0182
+                            "share": 0.018224
                         },
                         {
                             "qty": 42500,
                             "amount": 854100,
-                            "share": 0.0109
+                            "share": 0.010896
                         },
                         {
                             "qty": 24000,
                             "amount": 732780,
-                            "share": 0.0091
+                            "share": 0.009056
                         },
                         {
                             "qty": 42700,
                             "amount": 548616,
-                            "share": 0.0068
+                            "share": 0.006842
                         },
                         {
-                            "qty": 0,
-                            "amount": 0,
-                            "share": 0
+                            "qty": null,
+                            "amount": null,
+                            "share": 0.0
                         },
                         {
                             "qty": 9200,
                             "amount": 456590,
-                            "share": 0.006
+                            "share": 0.006005
                         },
                         {
                             "qty": 28300,
                             "amount": 908838,
-                            "share": 0.0109
+                            "share": 0.010923
                         },
                         {
                             "qty": 37000,
                             "amount": 1062135,
-                            "share": 0.0144
+                            "share": 0.014449
                         },
                         {
                             "qty": 12500,
                             "amount": 390680,
-                            "share": 0.0051
+                            "share": 0.005141
                         }
-                    ]
+                    ],
+                    "yoy": 1.202783,
+                    "name": "OEM"
                 }
+            ],
+            "monthlyYoy": [
+                0.833645, 0.933883, 0.99001, 0.851206, 0.992471, 0.703248,
+                0.782717, 0.571132, 1.120155, 1.459215, 1.024595, 0.900424
             ]
         }
     }

@@ -30,7 +30,7 @@
             "subtitle": "Monthly sales by OEM and chain store",
             "year": "Year",
             "chainsSection": "Monthly sales by chain store",
-            "targetSection": "2026 target vs actual by product"
+            "targetSection": "2026 targets, results and orders by product"
         },
         "stores": {
             "title": "Sales by store",
@@ -62,7 +62,13 @@
             "total": "Total",
             "targetQty": "Target qty",
             "achievement": "Achievement",
-            "prevQty": "Prev. year qty"
+            "prevQty": "Prev. year qty",
+            "target": "2026 target",
+            "orders": "Orders",
+            "orderQty": "Orders",
+            "unitPrice": "Spool unit price",
+            "janApr": "Jan-Apr",
+            "yoyAmount": "YoY (amount)"
         },
         "view": {
             "metric": "Show",
@@ -76,7 +82,16 @@
                 "yen": "JPY",
                 "thousand": "JPY thousand",
                 "million": "JPY million"
-            }
+            },
+            "share": "Monthly share",
+            "on": "ON",
+            "off": "OFF"
+        },
+        "tabs": {
+            "oem": "By chain (OEM)",
+            "oemHint": "Monthly sales by chain store",
+            "target": "2026 targets",
+            "targetHint": "Targets, results and orders by product"
         }
     }
 }

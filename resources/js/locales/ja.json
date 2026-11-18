@@ -30,7 +30,7 @@
             "subtitle": "OEM別・チェーン店別の月次売上",
             "year": "対象年",
             "chainsSection": "チェーン店別 月次売上",
-            "targetSection": "2026年 商品別 目標と実績"
+            "targetSection": "2026年 商品別 目標・実績・受注"
         },
         "stores": {
             "title": "店舗別売上",
@@ -61,8 +61,14 @@
             "yoy": "昨対",
             "total": "合計",
             "targetQty": "目標数量",
-            "achievement": "達成率",
-            "prevQty": "前年数量"
+            "achievement": "目標値（達成率）",
+            "prevQty": "前年数量",
+            "target": "2026目標",
+            "orders": "受注",
+            "orderQty": "受注数",
+            "unitPrice": "スプール単価",
+            "janApr": "1～4月",
+            "yoyAmount": "昨対（金額）"
         },
         "view": {
             "metric": "表示項目",
@@ -76,7 +82,16 @@
                 "yen": "円",
                 "thousand": "千円",
                 "million": "百万円"
-            }
+            },
+            "share": "月別比率",
+            "on": "ON",
+            "off": "OFF"
+        },
+        "tabs": {
+            "oem": "OEM別",
+            "oemHint": "チェーン店別の月次売上",
+            "target": "2026目標",
+            "targetHint": "商品別の目標・実績・受注"
         }
     }
 }

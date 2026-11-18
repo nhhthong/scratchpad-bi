@@ -4,6 +4,8 @@ import { Button } from '@/components/ui/button';
 import type { Metric, Unit } from '@/composables/useSalesView';
 import { useSalesView } from '@/composables/useSalesView';
 
+defineProps<{ unitOnly?: boolean }>();
+
 const { t } = useI18n();
 const view = useSalesView();
 
@@ -30,7 +32,10 @@ const units: Unit[] = ['yen', 'thousand', 'million'];
             </div>
         </div>
 
-        <div v-if="view.metric !== 'qty'" class="flex items-center gap-2">
+        <div
+            v-if="unitOnly || view.metric !== 'qty'"
+            class="flex items-center gap-2"
+        >
             <span class="text-muted-foreground">{{
                 t('sales.view.unit')
             }}</span>
@@ -45,6 +50,19 @@ const units: Unit[] = ['yen', 'thousand', 'million'];
                     {{ t(`sales.view.units.${unit}`) }}
                 </Button>
             </div>
+        </div>
+
+        <div class="flex items-center gap-2">
+            <span class="text-muted-foreground">{{
+                t('sales.view.share')
+            }}</span>
+            <Button
+                size="sm"
+                :variant="view.share ? 'default' : 'outline'"
+                @click="view.share = !view.share"
+            >
+                {{ view.share ? t('sales.view.on') : t('sales.view.off') }}
+            </Button>
         </div>
     </div>
 </template>

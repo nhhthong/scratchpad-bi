@@ -3,10 +3,11 @@ import { onMounted, ref, watch } from 'vue';
 export type Metric = 'amount' | 'qty' | 'both';
 export type Unit = 'yen' | 'thousand' | 'million';
 
-type View = { metric: Metric; unit: Unit };
+type View = { metric: Metric; unit: Unit; share: boolean };
 
-const KEY = 'sales-view';
-const defaults: View = { metric: 'amount', unit: 'thousand' };
+const KEY = 'sales-view-v2';
+// Defaults reproduce the source workbook: quantity and amount in yen, with monthly share.
+const defaults: View = { metric: 'both', unit: 'yen', share: true };
 
 // Shared by all sales tables so the choice sticks while moving between screens.
 // It starts at the defaults on server and client alike: reading localStorage while

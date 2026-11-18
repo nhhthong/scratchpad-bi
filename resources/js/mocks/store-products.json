@@ -17,1119 +17,1120 @@
     "total": {
         "qty": 14208,
         "amount": 12238232,
+        "share": 1.0,
         "monthly": [
             {
                 "qty": 0,
                 "amount": 0,
-                "share": 0
+                "share": 0.0
             },
             {
                 "qty": 0,
                 "amount": 0,
-                "share": 0
+                "share": 0.0
             },
             {
                 "qty": 0,
                 "amount": 0,
-                "share": 0
+                "share": 0.0
             },
             {
                 "qty": 1752,
                 "amount": 1428124,
-                "share": 0.1167
+                "share": 0.116694
             },
             {
                 "qty": 1381,
                 "amount": 1299840,
-                "share": 0.1062
+                "share": 0.106211
             },
             {
                 "qty": 1231,
                 "amount": 1252656,
-                "share": 0.1024
+                "share": 0.102356
             },
             {
                 "qty": 3948,
                 "amount": 3727924,
-                "share": 0.3046
+                "share": 0.304613
             },
             {
                 "qty": 5164,
                 "amount": 3912612,
-                "share": 0.3197
+                "share": 0.319704
             },
             {
                 "qty": 732,
                 "amount": 617076,
-                "share": 0.0504
+                "share": 0.050422
             },
             {
                 "qty": 0,
                 "amount": 0,
-                "share": 0
+                "share": 0.0
             },
             {
                 "qty": 0,
                 "amount": 0,
-                "share": 0
+                "share": 0.0
             },
             {
                 "qty": 0,
                 "amount": 0,
-                "share": 0
+                "share": 0.0
             }
         ]
     },
     "rows": [
         {
+            "type": "SUPER JIGMAN X8 200m",
+            "spec": "1号 20lb",
             "qty": 920,
             "amount": 1092000,
-            "share": 0.0892,
+            "share": 0.089229,
             "yoy": null,
             "monthly": [
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 100,
                     "amount": 108000,
-                    "share": 0.0756
+                    "share": 0.075624
                 },
                 {
                     "qty": 1,
                     "amount": 1200,
-                    "share": 0.0009
+                    "share": 0.000923
                 },
                 {
                     "qty": 319,
                     "amount": 382800,
-                    "share": 0.3056
+                    "share": 0.305591
                 },
                 {
                     "qty": 100,
                     "amount": 120000,
-                    "share": 0.0322
+                    "share": 0.032189
                 },
                 {
                     "qty": 400,
                     "amount": 480000,
-                    "share": 0.1227
+                    "share": 0.12268
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": null
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": null
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": null
                 }
-            ],
-            "type": "SUPER JIGMAN X8 200m",
-            "spec": "1号 20lb"
+            ]
         },
         {
+            "type": "ULTRA2 MAX WX8 100M 連",
+            "spec": "2号",
             "qty": 780,
             "amount": 403260,
-            "share": 0.033,
+            "share": 0.032951,
             "yoy": null,
             "monthly": [
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 120,
                     "amount": 56760,
-                    "share": 0.0397
+                    "share": 0.039744
                 },
                 {
                     "qty": 120,
                     "amount": 63000,
-                    "share": 0.0485
+                    "share": 0.048468
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 300,
                     "amount": 157500,
-                    "share": 0.0422
+                    "share": 0.042249
                 },
                 {
                     "qty": 240,
                     "amount": 126000,
-                    "share": 0.0322
+                    "share": 0.032204
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": null
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": null
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": null
                 }
-            ],
-            "type": "ULTRA2 MAX WX8 100M 連",
-            "spec": "2号"
+            ]
         },
         {
+            "type": "ULTRA2 MAX WX8 100M 連",
+            "spec": "3号",
             "qty": 1680,
             "amount": 875760,
-            "share": 0.0716,
+            "share": 0.071559,
             "yoy": null,
             "monthly": [
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 120,
                     "amount": 56760,
-                    "share": 0.0397
+                    "share": 0.039744
                 },
                 {
                     "qty": 300,
                     "amount": 157500,
-                    "share": 0.1212
+                    "share": 0.121169
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 420,
                     "amount": 220500,
-                    "share": 0.0591
+                    "share": 0.059148
                 },
                 {
                     "qty": 840,
                     "amount": 441000,
-                    "share": 0.1127
+                    "share": 0.112712
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": null
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": null
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": null
                 }
-            ],
-            "type": "ULTRA2 MAX WX8 100M 連",
-            "spec": "3号"
+            ]
         },
         {
+            "type": "ULTRA2 MAX WX8 100M 連",
+            "spec": "4号",
             "qty": 1680,
             "amount": 875760,
-            "share": 0.0716,
+            "share": 0.071559,
             "yoy": null,
             "monthly": [
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 120,
                     "amount": 56760,
-                    "share": 0.0397
+                    "share": 0.039744
                 },
                 {
                     "qty": 300,
                     "amount": 157500,
-                    "share": 0.1212
+                    "share": 0.121169
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 420,
                     "amount": 220500,
-                    "share": 0.0591
+                    "share": 0.059148
                 },
                 {
                     "qty": 840,
                     "amount": 441000,
-                    "share": 0.1127
+                    "share": 0.112712
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": null
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": null
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": null
                 }
-            ],
-            "type": "ULTRA2 MAX WX8 100M 連",
-            "spec": "4号"
+            ]
         },
         {
+            "type": "ULTRA2 MAX WX8 100M 連",
+            "spec": "5号",
             "qty": 480,
             "amount": 245760,
-            "share": 0.0201,
+            "share": 0.020081,
             "yoy": null,
             "monthly": [
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 120,
                     "amount": 56760,
-                    "share": 0.0397
+                    "share": 0.039744
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 120,
                     "amount": 63000,
-                    "share": 0.0169
+                    "share": 0.016899
                 },
                 {
                     "qty": 240,
                     "amount": 126000,
-                    "share": 0.0322
+                    "share": 0.032204
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": null
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": null
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": null
                 }
-            ],
-            "type": "ULTRA2 MAX WX8 100M 連",
-            "spec": "5号"
+            ]
         },
         {
+            "type": "ULTRA2 MAX WX8 100M 連",
+            "spec": "6号",
             "qty": 264,
             "amount": 131112,
-            "share": 0.0107,
+            "share": 0.010713,
             "yoy": null,
             "monthly": [
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 144,
                     "amount": 68112,
-                    "share": 0.0477
+                    "share": 0.047693
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 120,
                     "amount": 63000,
-                    "share": 0.0169
+                    "share": 0.016899
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": null
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": null
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": null
                 }
-            ],
-            "type": "ULTRA2 MAX WX8 100M 連",
-            "spec": "6号"
+            ]
         },
         {
+            "type": "UPGRADE X8 150m",
+            "spec": "0.8号 16lb",
             "qty": 340,
             "amount": 417920,
-            "share": 0.0341,
+            "share": 0.034149,
             "yoy": null,
             "monthly": [
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 120,
                     "amount": 137640,
-                    "share": 0.0964
+                    "share": 0.096378
                 },
                 {
                     "qty": 100,
                     "amount": 127400,
-                    "share": 0.098
+                    "share": 0.098012
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 120,
                     "amount": 152880,
-                    "share": 0.0391
+                    "share": 0.039074
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": null
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": null
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": null
                 }
-            ],
-            "type": "UPGRADE X8 150m",
-            "spec": "0.8号 16lb"
+            ]
         },
         {
+            "type": "UPGRADE X8 150m",
+            "spec": "1号 22lb",
             "qty": 660,
             "amount": 825600,
-            "share": 0.0675,
+            "share": 0.067461,
             "yoy": null,
             "monthly": [
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 120,
                     "amount": 137640,
-                    "share": 0.0964
+                    "share": 0.096378
                 },
                 {
                     "qty": 120,
                     "amount": 152880,
-                    "share": 0.1176
+                    "share": 0.117614
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 300,
                     "amount": 382200,
-                    "share": 0.1025
+                    "share": 0.102524
                 },
                 {
                     "qty": 120,
                     "amount": 152880,
-                    "share": 0.0391
+                    "share": 0.039074
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": null
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": null
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": null
                 }
-            ],
-            "type": "UPGRADE X8 150m",
-            "spec": "1号 22lb"
+            ]
         },
         {
+            "type": "UPGRADE X8 200m",
+            "spec": "1.2号 25lb",
             "qty": 640,
             "amount": 1061600,
-            "share": 0.0867,
+            "share": 0.086745,
             "yoy": null,
             "monthly": [
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 100,
                     "amount": 151700,
-                    "share": 0.1062
+                    "share": 0.106223
                 },
                 {
                     "qty": 120,
                     "amount": 202200,
-                    "share": 0.1556
+                    "share": 0.155558
                 },
                 {
                     "qty": 120,
                     "amount": 202200,
-                    "share": 0.1614
+                    "share": 0.161417
                 },
                 {
                     "qty": 300,
                     "amount": 505500,
-                    "share": 0.1356
+                    "share": 0.135598
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": null
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": null
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": null
                 }
-            ],
-            "type": "UPGRADE X8 200m",
-            "spec": "1.2号 25lb"
+            ]
         },
         {
+            "type": "UPGRADE X8 200m",
+            "spec": "1号 22lb",
             "qty": 800,
             "amount": 1331200,
-            "share": 0.1088,
+            "share": 0.108774,
             "yoy": null,
             "monthly": [
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 100,
                     "amount": 151700,
-                    "share": 0.1062
+                    "share": 0.106223
                 },
                 {
                     "qty": 200,
                     "amount": 337000,
-                    "share": 0.2593
+                    "share": 0.259263
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 500,
                     "amount": 842500,
-                    "share": 0.226
+                    "share": 0.225997
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": null
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": null
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": null
                 }
-            ],
-            "type": "UPGRADE X8 200m",
-            "spec": "1号 22lb"
+            ]
         },
         {
+            "type": "UPGRADEX8 OMNIUM 100M連",
+            "spec": "2号",
             "qty": 792,
             "amount": 657576,
-            "share": 0.0537,
+            "share": 0.053731,
             "yoy": null,
             "monthly": [
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 120,
                     "amount": 91080,
-                    "share": 0.0638
+                    "share": 0.063776
                 },
                 {
                     "qty": 120,
                     "amount": 101160,
-                    "share": 0.0778
+                    "share": 0.077825
                 },
                 {
                     "qty": 192,
                     "amount": 161856,
-                    "share": 0.1292
+                    "share": 0.12921
                 },
                 {
                     "qty": 120,
                     "amount": 101160,
-                    "share": 0.0271
+                    "share": 0.027136
                 },
                 {
                     "qty": 240,
                     "amount": 202320,
-                    "share": 0.0517
+                    "share": 0.05171
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": null
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": null
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": null
                 }
-            ],
-            "type": "UPGRADEX8 OMNIUM 100M連",
-            "spec": "2号"
+            ]
         },
         {
+            "type": "UPGRADEX8 OMNIUM 100M連",
+            "spec": "3号",
             "qty": 2160,
             "amount": 1810800,
-            "share": 0.148,
+            "share": 0.147963,
             "yoy": null,
             "monthly": [
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 120,
                     "amount": 91080,
-                    "share": 0.0638
+                    "share": 0.063776
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 300,
                     "amount": 252900,
-                    "share": 0.2019
+                    "share": 0.201891
                 },
                 {
                     "qty": 420,
                     "amount": 354060,
-                    "share": 0.095
+                    "share": 0.094975
                 },
                 {
                     "qty": 660,
                     "amount": 556380,
-                    "share": 0.1422
+                    "share": 0.142202
                 },
                 {
                     "qty": 660,
                     "amount": 556380,
-                    "share": 0.9016
+                    "share": 0.901639
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": null
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": null
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": null
                 }
-            ],
-            "type": "UPGRADEX8 OMNIUM 100M連",
-            "spec": "3号"
+            ]
         },
         {
+            "type": "UPGRADEX8 OMNIUM 100M連",
+            "spec": "4号",
             "qty": 2160,
             "amount": 1810800,
-            "share": 0.148,
+            "share": 0.147963,
             "yoy": null,
             "monthly": [
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 120,
                     "amount": 91080,
-                    "share": 0.0638
+                    "share": 0.063776
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 300,
                     "amount": 252900,
-                    "share": 0.2019
+                    "share": 0.201891
                 },
                 {
                     "qty": 420,
                     "amount": 354060,
-                    "share": 0.095
+                    "share": 0.094975
                 },
                 {
                     "qty": 1248,
                     "amount": 1052064,
-                    "share": 0.2689
+                    "share": 0.26889
                 },
                 {
                     "qty": 72,
                     "amount": 60696,
-                    "share": 0.0984
+                    "share": 0.098361
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": null
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": null
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": null
                 }
-            ],
-            "type": "UPGRADEX8 OMNIUM 100M連",
-            "spec": "4号"
+            ]
         },
         {
+            "type": "UPGRADEX8 OMNIUM 100M連",
+            "spec": "5号",
             "qty": 420,
             "amount": 343980,
-            "share": 0.0281,
+            "share": 0.028107,
             "yoy": null,
             "monthly": [
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 120,
                     "amount": 91080,
-                    "share": 0.0638
+                    "share": 0.063776
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 300,
                     "amount": 252900,
-                    "share": 0.0678
+                    "share": 0.067839
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": null
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": null
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": null
                 }
-            ],
-            "type": "UPGRADEX8 OMNIUM 100M連",
-            "spec": "5号"
+            ]
         },
         {
+            "type": "UPGRADEX8 OMNIUM 100M連",
+            "spec": "6号",
             "qty": 432,
             "amount": 355104,
-            "share": 0.029,
+            "share": 0.029016,
             "yoy": null,
             "monthly": [
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 108,
                     "amount": 81972,
-                    "share": 0.0574
+                    "share": 0.057398
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 108,
                     "amount": 91044,
-                    "share": 0.0244
+                    "share": 0.024422
                 },
                 {
                     "qty": 216,
                     "amount": 182088,
-                    "share": 0.0465
+                    "share": 0.046539
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": 0.0
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": null
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": null
                 },
                 {
                     "qty": 0,
                     "amount": 0,
-                    "share": 0
+                    "share": null
                 }
-            ],
-            "type": "UPGRADEX8 OMNIUM 100M連",
-            "spec": "6号"
+            ]
         }
     ]
 }
