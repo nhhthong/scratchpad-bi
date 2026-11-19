@@ -4,7 +4,7 @@
 
 # Scratchpad BI
 
-Ứng dụng Business Intelligence (BI) trên nền Laravel, Inertia và Vue, chạy hoàn toàn bằng Docker Compose.
+A business intelligence (BI) web app built with Laravel, Inertia and Vue, running entirely on Docker Compose.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 ![PHP](https://img.shields.io/badge/PHP-8.3%2B-777BB4?logo=php&logoColor=white)
@@ -13,54 +13,56 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-06B6D4?logo=tailwindcss&logoColor=white)
 
+**English** · [Tiếng Việt](README.vi.md) · [日本語](README.ja.md)
+
 </div>
 
-## Mục lục
+## Table of contents
 
-- [Tính năng](#tính-năng)
-- [Ảnh chụp màn hình](#ảnh-chụp-màn-hình)
-- [Công nghệ](#công-nghệ)
-- [Bắt đầu nhanh](#bắt-đầu-nhanh)
-- [Yêu cầu](#yêu-cầu)
-- [Cổng host](#cổng-host)
-- [Lệnh hằng ngày](#lệnh-hằng-ngày)
-- [Cấu trúc thư mục](#cấu-trúc-thư-mục)
-- [Thiết lập AI tooling](#thiết-lập-ai-tooling)
-- [Xử lý sự cố](#xử-lý-sự-cố)
-- [Đóng góp](#đóng-góp)
-- [Giấy phép](#giấy-phép)
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Tech stack](#tech-stack)
+- [Quick start](#quick-start)
+- [Requirements](#requirements)
+- [Host ports](#host-ports)
+- [Daily commands](#daily-commands)
+- [Project structure](#project-structure)
+- [AI tooling setup](#ai-tooling-setup)
+- [Troubleshooting](#troubleshooting)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Tính năng
+## Features
 
-- Trang báo cáo bán hàng theo chuỗi cửa hàng, cửa hàng và sản phẩm (`/dashboard`, `/sales/stores`, `/sales/products`).
-- Bảng BI dạng HTML table với cột sticky và cuộn ngang, màu theo ngữ nghĩa (positive, negative, warning, neutral, actual, target, forecast).
-- Xác thực bằng Laravel Fortify: đăng nhập, quên và đặt lại mật khẩu, xác minh email, xác thực hai yếu tố (2FA).
-- Trang cài đặt: hồ sơ, bảo mật, giao diện (sáng/tối).
-- Đa ngôn ngữ giao diện: tiếng Nhật (mặc định) và tiếng Anh.
-- Môi trường phát triển một lệnh: `make setup`.
+- Sales reports by chain, store and product (`/dashboard`, `/sales/stores`, `/sales/products`).
+- BI tables built as plain HTML tables with sticky columns and horizontal scrolling, with semantic colors (positive, negative, warning, neutral, actual, target, forecast).
+- Authentication with Laravel Fortify: login, password reset, email verification and two-factor authentication (2FA).
+- Settings pages: profile, security and appearance (light/dark).
+- Localized UI: Japanese (default) and English.
+- One-command development environment: `make setup`.
 
-## Ảnh chụp màn hình
+## Screenshots
 
-Dữ liệu trong ảnh là dữ liệu giả (mock), tên chuỗi, cửa hàng và sản phẩm đã được ẩn danh.
+The data shown is mock data. Chain, store and product names are anonymized.
 
-![Báo cáo doanh số theo chuỗi (giao diện sáng)](docs/screenshots/dashboard.png)
+![Sales by chain (light theme)](docs/screenshots/dashboard.png)
 
-| Giao diện tối | Doanh số theo cửa hàng |
+| Dark theme | Sales by store |
 | --- | --- |
-| ![Báo cáo doanh số theo chuỗi (giao diện tối)](docs/screenshots/dashboard-dark.png) | ![Doanh số theo cửa hàng](docs/screenshots/stores.png) |
+| ![Sales by chain (dark theme)](docs/screenshots/dashboard-dark.png) | ![Sales by store](docs/screenshots/stores.png) |
 
-![Trang đăng nhập](docs/screenshots/login.png)
+![Login page](docs/screenshots/login.png)
 
-## Công nghệ
+## Tech stack
 
-| Lớp | Công nghệ |
+| Layer | Technology |
 | --- | --- |
 | Backend | Laravel 13, PHP 8.3+, Laravel Fortify, Laravel Wayfinder |
 | Frontend | Inertia 3, Vue 3 (TypeScript), shadcn-vue (reka-ui), Tailwind CSS 4, vue-i18n, Vite |
-| Dữ liệu | MySQL 8.4, Redis 7 (cache, session, queue) |
-| Hạ tầng | Docker Compose, `make` |
+| Data | MySQL 8.4, Redis 7 (cache, session, queue) |
+| Infrastructure | Docker Compose, `make` |
 
-## Bắt đầu nhanh
+## Quick start
 
 ```bash
 git clone https://github.com/nhhthong/scratchpad-bi.git
@@ -68,89 +70,89 @@ cd scratchpad-bi
 make setup
 ```
 
-`make setup` làm lần lượt:
+`make setup` runs these steps in order:
 
-1. Tạo `.env` từ `.env.example`, điền `UID`/`GID` của bạn và mật khẩu ngẫu nhiên cho MySQL, Redis (nếu đã có `.env` thì giữ nguyên).
-2. Kiểm tra cổng host còn trống.
-3. Build image, cài `vendor/` và `node_modules/`, tạo `APP_KEY`, chạy migration.
-4. Bật stack.
+1. Creates `.env` from `.env.example`, fills in your `UID`/`GID` and random passwords for MySQL and Redis (an existing `.env` is kept as is).
+2. Checks that the host ports are free.
+3. Builds the image, installs `vendor/` and `node_modules/`, generates `APP_KEY` and runs the migrations.
+4. Starts the stack.
 
-Lần đầu mất vài phút (tải image và dependency). Sau đó mở <http://localhost:8090> (đổi cổng nếu bạn đã sửa `APP_PORT`).
+The first run takes a few minutes (image and dependency downloads). When it finishes, open <http://localhost:8090> (use a different port if you changed `APP_PORT`).
 
-Nếu `vendor/` hoặc `node_modules/` thuộc root (do `UID`/`GID` sai khi cài lần đầu), chạy `sudo chown -R $(id -u):$(id -g) vendor node_modules`, sửa `UID`/`GID` trong `.env`, rồi `make build` và cài lại.
+If `vendor/` or `node_modules/` end up owned by root (wrong `UID`/`GID` on the first install), run `sudo chown -R $(id -u):$(id -g) vendor node_modules`, fix `UID`/`GID` in `.env`, then run `make build` and install again.
 
-## Yêu cầu
+## Requirements
 
-| Công cụ | Dùng để | Ghi chú |
+| Tool | Used for | Notes |
 | --- | --- | --- |
-| Docker + Docker Compose v2 | Chạy toàn bộ stack | Đã kiểm thử: Docker 29.8.2, Compose 5.6.0 |
-| `make`, `openssl`, `ss` | `Makefile` (setup, lệnh tắt) | Có sẵn trên Ubuntu |
-| Git | Clone repo | |
-| Node.js (có `npx`) | Chỉ để chạy MCP `shadcn` | Tùy chọn. Đã kiểm thử: 24.x |
-| Claude Code | AI agent | Tùy chọn. Cần ≥ 2.1.277 để đọc `AGENTS.md` |
+| Docker + Docker Compose v2 | Running the whole stack | Tested with Docker 29.8.2, Compose 5.6.0 |
+| `make`, `openssl`, `ss` | `Makefile` (setup, shortcuts) | Included with Ubuntu |
+| Git | Cloning the repo | |
+| Node.js (with `npx`) | Running the `shadcn` MCP server only | Optional. Tested with 24.x |
+| Claude Code | AI agent | Optional. Version 2.1.277 or later is needed to read `AGENTS.md` |
 
-Không cần cài PHP, Composer hay pnpm trên host: mọi lệnh chạy trong container. `vendor/` và `node_modules/` được bind-mount từ host nên IDE đọc trực tiếp, đúng bản cài trong container.
+You do not need PHP, Composer or pnpm on the host: every command runs in a container. `vendor/` and `node_modules/` are bind-mounted from the host, so your IDE reads the exact versions installed in the container.
 
 > [!NOTE]
-> Cấu hình bind-mount này chỉ dành cho Linux. Trên macOS hoặc Windows hãy đổi sang named volume, vì binary native (`esbuild`, `rollup`) khác hệ điều hành và bind-mount chậm.
+> The bind-mount setup targets Linux only. On macOS or Windows, switch to named volumes: native binaries (`esbuild`, `rollup`) differ per operating system and bind mounts are slow.
 
-Stack có 3 container, không tự chạy khi bật máy (`restart: 'no'`):
+The stack has three containers. They do not start on boot (`restart: 'no'`):
 
-| Container | Chạy gì |
+| Container | What runs |
 | --- | --- |
-| `bi-ygk-app` | `php artisan dev`: web server, queue worker, log (Pail) và Vite trong một container, tự khởi động lại tiến trình bị crash |
-| `bi-ygk-mysql` | MySQL 8.4, dữ liệu trong volume `bi-ygk_mysql_data` |
-| `bi-ygk-redis` | Redis 7 cho cache, session, queue (không lưu xuống đĩa) |
+| `bi-ygk-app` | `php artisan dev`: web server, queue worker, log viewer (Pail) and Vite in one container, with automatic restart of crashed processes |
+| `bi-ygk-mysql` | MySQL 8.4, data stored in the `bi-ygk_mysql_data` volume |
+| `bi-ygk-redis` | Redis 7 for cache, session and queue (no persistence to disk) |
 
-## Cổng host
+## Host ports
 
-Giá trị mặc định nằm trong `.env`:
+Defaults live in `.env`:
 
-| Service | Cổng host | Biến |
+| Service | Host port | Variable |
 | --- | --- | --- |
 | App (web server) | 8090 | `APP_PORT` |
 | Vite dev server / HMR | 5180 | `VITE_PORT` |
-| MySQL (chỉ `127.0.0.1`) | 3310 | `MYSQL_FORWARD_PORT` |
-| Redis (chỉ `127.0.0.1`) | 6380 | `REDIS_FORWARD_PORT` |
+| MySQL (`127.0.0.1` only) | 3310 | `MYSQL_FORWARD_PORT` |
+| Redis (`127.0.0.1` only) | 6380 | `REDIS_FORWARD_PORT` |
 
-`make ports` kiểm tra 4 cổng trong `.env` (`make setup` tự chạy bước này). Nếu trùng thì đổi trong `.env`, không dừng service khác. Các container gọi nhau bằng tên service (`mysql:3306`, `redis:6379`), không dùng cổng host.
+`make ports` checks the four ports in `.env` (`make setup` runs it for you). If a port is taken, change it in `.env` instead of stopping the other service. Containers reach each other by service name (`mysql:3306`, `redis:6379`), not by host port.
 
-## Lệnh hằng ngày
+## Daily commands
 
-`make help` liệt kê toàn bộ. Thường dùng:
+Run `make help` for the full list. The common ones:
 
 ```bash
-make up            # bật stack
-make down          # tắt stack (giữ dữ liệu)
-make ps            # trạng thái container
-make logs          # log server, queue, Pail, Vite
-make shell         # vào bash trong container app
-make test          # test PHP (SQLite :memory:, không đụng MySQL)
-make types         # kiểm tra kiểu TypeScript
-make check         # lint + format
-make build-assets  # build production
-make migrate       # chạy migration
+make up            # start the stack
+make down          # stop the stack (data is kept)
+make ps            # container status
+make logs          # server, queue, Pail and Vite logs
+make shell         # bash inside the app container
+make test          # PHP tests (SQLite :memory:, MySQL is untouched)
+make types         # TypeScript type check
+make check         # lint + format check
+make build-assets  # production build
+make migrate       # run migrations
 make mysql         # MySQL shell
-make restart       # khởi động lại app (sau khi sửa vite.config.ts hoặc .env)
+make restart       # restart the app (after editing vite.config.ts or .env)
 ```
 
-Thêm package:
+Add a package:
 
 ```bash
 docker compose exec app composer require <pkg>
 docker compose exec app pnpm add <pkg>
 ```
 
-Source nằm trên host và được bind-mount vào container, sửa file là thấy ngay. Vite HMR hoạt động không cần polling; chỉ đặt `VITE_USE_POLLING=true` khi HMR bỏ sót thay đổi.
+Source code lives on the host and is bind-mounted into the container, so edits show up immediately. Vite HMR works without polling; set `VITE_USE_POLLING=true` only if HMR misses changes.
 
-Sau khi sửa `vite.config.ts`, chạy `make restart`: Vite tự restart nội bộ nhưng mỗi lần giữ lại khoảng 200 MiB RAM không giải phóng.
+After editing `vite.config.ts`, run `make restart`: Vite restarts itself, but each restart leaves about 200 MiB of RAM unreleased.
 
 > [!WARNING]
-> Không chạy `docker compose down -v`, `docker volume rm` hay `docker system prune` trên volume `bi-ygk_mysql_data`: mất dữ liệu MySQL.
+> Do not run `docker compose down -v`, `docker volume rm` or `docker system prune` on the `bi-ygk_mysql_data` volume: you will lose the MySQL data.
 
-## Cấu trúc thư mục
+## Project structure
 
-Dùng thư mục chuẩn của Laravel và Vue.
+The project uses the standard Laravel and Vue layout.
 
 ```text
 app/{Actions,DTOs,Enums,Http,Models,Policies,Services}
@@ -159,47 +161,47 @@ docker/php/Dockerfile     compose.yaml     Makefile     .env.example
 .claude/{rules,settings.json}     .mcp.json     AGENTS.md
 ```
 
-## Thiết lập AI tooling
+## AI tooling setup
 
-Phần này tùy chọn, dành cho dev dùng Claude Code. Đã commit sẵn, tự có sau khi clone: `AGENTS.md`, `.claude/rules/`, `.claude/settings.json`, `.mcp.json`, `config/boost.php`.
+This section is optional and is for developers who use Claude Code. These files are committed and available after cloning: `AGENTS.md`, `.claude/rules/`, `.claude/settings.json`, `.mcp.json`, `config/boost.php`.
 
-1. Sinh skills của Laravel Boost (không có trong git). Chỉ dùng `--skills`:
+1. Generate the Laravel Boost skills (not stored in git). Use `--skills` only:
 
    ```bash
    docker compose exec app php artisan boost:install -n --skills
    ```
 
-   Không thêm `--guidelines` (sẽ ghi khối Boost dài vào `AGENTS.md`) và không thêm `--mcp` (sẽ ghi đè mục `laravel-boost` trong `.mcp.json` về `php artisan boost:mcp` chạy trên host, không chạy được).
+   Do not add `--guidelines` (it writes a long Boost block into `AGENTS.md`) and do not add `--mcp` (it overwrites the `laravel-boost` entry in `.mcp.json` with `php artisan boost:mcp` running on the host, which does not work here).
 
-2. Mở Claude Code ở thư mục gốc repo, chạy `/mcp`, phê duyệt hai server khi được hỏi:
-   - `laravel-boost`: chạy trong container `app` (`docker compose exec -T app php artisan boost:mcp`). Cần stack đang chạy.
-   - `shadcn`: chạy `npx shadcn-vue@latest mcp`. Nếu từng từ chối, chạy `claude mcp reset-project-choices` rồi mở lại.
-3. Chạy `/memory` để xác nhận `AGENTS.md` và các file trong `.claude/rules/` đã được nạp.
+2. Open Claude Code in the repository root, run `/mcp` and approve the two servers when prompted:
+   - `laravel-boost`: runs inside the `app` container (`docker compose exec -T app php artisan boost:mcp`). The stack must be running.
+   - `shadcn`: runs `npx shadcn-vue@latest mcp`. If you declined it earlier, run `claude mcp reset-project-choices` and reopen.
+3. Run `/memory` to confirm that `AGENTS.md` and the files in `.claude/rules/` are loaded.
 
-`boost.json` và `.claude/skills/` được sinh tự động và nằm trong `.gitignore`. Rule `ask` trong `.claude/settings.json` sẽ hỏi trước khi chạy lệnh phá hủy (`docker compose down`, `docker volume rm`, `docker system prune`, `migrate:fresh`, `db:wipe`, `FLUSH*`).
+`boost.json` and `.claude/skills/` are generated and listed in `.gitignore`. The `ask` rules in `.claude/settings.json` prompt before destructive commands (`docker compose down`, `docker volume rm`, `docker system prune`, `migrate:fresh`, `db:wipe`, `FLUSH*`).
 
-Tùy chọn: dùng MCP `codebase-memory-mcp` để đánh index mã nguồn (`index_repository`). Index nằm trên máy mỗi người, không có trong repo.
+Optional: use the `codebase-memory-mcp` MCP server to index the source code (`index_repository`). The index stays on each developer's machine and is not part of the repo.
 
-## Xử lý sự cố
+## Troubleshooting
 
-| Triệu chứng | Cách xử lý |
+| Symptom | Fix |
 | --- | --- |
-| `port is already allocated` | Đổi cổng tương ứng trong `.env`, rồi `make up` |
-| Lần bật đầu tiên chậm (~1 phút) | `php artisan dev` tải `@laravel/multiplex` qua `pnpm dlx` một lần, cache trong volume `bi-ygk_app_cache`; các lần sau khoảng 2 giây |
-| Trang trắng, thiếu CSS/JS | `make logs` (dòng `vite │`); kiểm tra `public/hot` là `http://localhost:<VITE_PORT>` |
-| File tạo trong container thuộc root | Đặt đúng `UID`/`GID` trong `.env`, rồi `docker compose build` |
-| `laravel-boost` không kết nối trong `/mcp` | Chạy `make up`; chạy thử `docker compose exec -T app php artisan boost:mcp` |
-| Mất mật khẩu MySQL sau khi đổi `.env` | MySQL chỉ đọc mật khẩu lúc tạo volume lần đầu; đổi bằng SQL, không sửa `.env` |
+| `port is already allocated` | Change the matching port in `.env`, then run `make up` |
+| First start is slow (about 1 minute) | `php artisan dev` downloads `@laravel/multiplex` through `pnpm dlx` once and caches it in the `bi-ygk_app_cache` volume; later starts take about 2 seconds |
+| Blank page, missing CSS/JS | Run `make logs` (look for `vite │` lines) and check that `public/hot` contains `http://localhost:<VITE_PORT>` |
+| Files created in the container are owned by root | Set the correct `UID`/`GID` in `.env`, then run `docker compose build` |
+| `laravel-boost` fails to connect in `/mcp` | Run `make up`, then try `docker compose exec -T app php artisan boost:mcp` |
+| MySQL password lost after editing `.env` | MySQL reads the password only when the volume is first created; change it with SQL instead of editing `.env` |
 
-## Đóng góp
+## Contributing
 
-Đóng góp được hoan nghênh.
+Contributions are welcome.
 
-1. Fork repo và tạo nhánh từ `main`.
-2. Chạy lệnh trong Docker, không chạy `php`, `composer`, `pnpm` trên host (xem [AGENTS.md](AGENTS.md)).
-3. Trước khi mở pull request, chạy `make test`, `make types` và `make check`; cả ba phải pass.
-4. Mô tả rõ thay đổi và lý do trong pull request.
+1. Fork the repository and create a branch from `main`.
+2. Run commands in Docker. Do not run `php`, `composer` or `pnpm` on the host (see [AGENTS.md](AGENTS.md)).
+3. Before opening a pull request, run `make test`, `make types` and `make check`. All three must pass.
+4. Describe the change and the reason for it in the pull request.
 
-## Giấy phép
+## License
 
-Phát hành theo giấy phép MIT. Xem [LICENSE](LICENSE).
+Released under the MIT License. See [LICENSE](LICENSE).
