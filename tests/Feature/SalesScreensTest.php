@@ -21,6 +21,8 @@ class SalesScreensTest extends TestCase
             'chains' => ['dashboard', 'sales/Chains'],
             'stores' => ['sales.stores', 'sales/Stores'],
             'products' => ['sales.products', 'sales/Products'],
+            'my page' => ['mypage', 'mypage/Index'],
+            'permissions' => ['admin.permissions', 'admin/Permissions'],
         ];
     }
 

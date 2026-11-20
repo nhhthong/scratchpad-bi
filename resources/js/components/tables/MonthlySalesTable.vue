@@ -51,10 +51,10 @@ const isTotal = (index: number) => props.total !== undefined && index === 0;
 
 // Sticky cells must be opaque (no /alpha), or rows scrolling underneath show through.
 const head =
-    'h-10 bg-muted px-3 text-[13px] font-medium whitespace-nowrap text-foreground/70';
-const cell = 'px-3 py-2.5 text-right tabular-nums group-hover:bg-muted/70';
+    'h-7 bg-muted px-2 text-[13px] font-medium whitespace-nowrap text-foreground/70';
+const cell = 'px-2 py-1 text-right tabular-nums group-hover:bg-muted/70';
 const labelCell =
-    'sticky z-10 bg-card px-3 py-2.5 shadow-[1px_0_0_0_var(--border)] group-hover:bg-muted';
+    'sticky z-10 bg-card px-2 py-1 shadow-[1px_0_0_0_var(--border)] group-hover:bg-muted';
 </script>
 
 <template>

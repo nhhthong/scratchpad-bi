@@ -18,6 +18,8 @@ void createInertiaApp({
             case name.startsWith('auth/'):
                 return AuthLayout;
             case name.startsWith('sales/'):
+            case name.startsWith('mypage/'):
+            case name.startsWith('admin/'):
                 return BiLayout;
             case name.startsWith('settings/'):
                 return [BiLayout, SettingsLayout];

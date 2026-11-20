@@ -1,7 +1,9 @@
 <script setup lang="ts">
+import { computed, reactive } from 'vue';
 import { useI18n } from 'vue-i18n';
 import TrendBadge from '@/components/shared/TrendBadge.vue';
 import SalesViewToolbar from '@/components/tables/SalesViewToolbar.vue';
+import TargetEditPopover from '@/components/tables/TargetEditPopover.vue';
 import { ScrollArea, ScrollBar } from '@/components/ui/scroll-area';
 import {
     TableBody,
@@ -19,19 +21,46 @@ const props = defineProps<{
     months: string[];
     total: ProductTargetRow;
     rows: ProductTargetRow[];
+    // Roles without the "edit targets" capability get a read-only table.
+    readonly?: boolean;
 }>();
 
 const { t } = useI18n();
 const { int, amount, percent, month, negative } = useFormat();
 const view = useSalesView();
 
-const all = () => [props.total, ...props.rows];
+// Manual target edits (mock: kept in memory). Amount = quantity x unit price; achievement = actual / target.
+const edits = reactive<Record<string, number | null>>({});
+const viewRows = computed(() =>
+    props.rows.map((row) => {
+        if (!(row.name in edits)) {
+            return row;
+        }
+
+        const qty = edits[row.name];
+
+        return {
+            ...row,
+            targetQty: qty,
+            targetAmount:
+                qty != null && row.unitPrice != null
+                    ? qty * row.unitPrice
+                    : null,
+            achievement: qty ? (row.qty ?? 0) / qty : null,
+        };
+    }),
+);
+const all = () => [props.total, ...viewRows.value];
+const isEdited = (row: ProductTargetRow) => row.name in edits;
+const saveTarget = (row: ProductTargetRow, qty: number | null) => {
+    edits[row.name] = qty;
+};
 const isTotal = (index: number) => index === 0;
 
 // Sticky cells must be opaque (no /alpha), or rows scrolling underneath show through.
 const head =
-    'h-10 px-3 text-xs font-medium whitespace-nowrap text-muted-foreground';
-const cell = 'px-3 py-2.5 text-right tabular-nums group-hover:bg-muted/70';
+    'h-7 bg-muted px-2 text-xs font-medium whitespace-nowrap text-muted-foreground';
+const cell = 'px-2 py-1 text-right tabular-nums group-hover:bg-muted/70';
 </script>
 
 <template>
@@ -183,7 +212,7 @@ const cell = 'px-3 py-2.5 text-right tabular-nums group-hover:bg-muted/70';
                         :class="isTotal(index) ? 'font-semibold' : ''"
                     >
                         <TableCell
-                            class="sticky left-0 z-10 min-w-64 border-b bg-card px-3 py-2.5 shadow-[1px_0_0_0_var(--border)] group-hover:bg-muted"
+                            class="sticky left-0 z-10 min-w-64 border-b bg-card px-2 py-1 shadow-[1px_0_0_0_var(--border)] group-hover:bg-muted"
                             :class="isTotal(index) ? '!bg-muted' : ''"
                         >
                             {{ row.name }}
@@ -216,7 +245,7 @@ const cell = 'px-3 py-2.5 text-right tabular-nums group-hover:bg-muted/70';
                             {{ percent(row.share) }}
                         </TableCell>
                         <TableCell
-                            class="border-b px-3 py-2.5 group-hover:bg-muted/70"
+                            class="border-b px-2 py-1 group-hover:bg-muted/70"
                             :class="isTotal(index) ? 'bg-muted/60' : ''"
                         >
                             <div
@@ -284,7 +313,22 @@ const cell = 'px-3 py-2.5 text-right tabular-nums group-hover:bg-muted/70';
                             class="border-b border-l"
                             :class="[cell, isTotal(index) ? 'bg-muted/60' : '']"
                         >
-                            {{ int(row.targetQty) }}
+                            <div class="flex items-center justify-end gap-1.5">
+                                <span
+                                    :class="
+                                        isEdited(row)
+                                            ? 'font-medium text-primary'
+                                            : ''
+                                    "
+                                >
+                                    {{ int(row.targetQty) }}
+                                </span>
+                                <TargetEditPopover
+                                    v-if="!isTotal(index) && !readonly"
+                                    :row="row"
+                                    @save="(qty) => saveTarget(row, qty)"
+                                />
+                            </div>
                         </TableCell>
                         <TableCell
                             class="border-b"

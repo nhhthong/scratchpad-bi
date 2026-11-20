@@ -1,6 +1,7 @@
 import { router } from '@inertiajs/vue3';
 import { createI18n } from 'vue-i18n';
 import en from '@/locales/en.json';
+import { biMessages } from '@/locales/bi';
 import ja from '@/locales/ja.json';
 
 export type Locale = 'ja' | 'en';
@@ -9,7 +10,10 @@ export const i18n = createI18n({
     legacy: false,
     locale: 'ja',
     fallbackLocale: 'en',
-    messages: { ja, en },
+    messages: {
+        ja: { ...ja, ...biMessages.ja },
+        en: { ...en, ...biMessages.en },
+    },
 });
 
 export function setLocale(locale: string): void {

@@ -80,7 +80,7 @@ export default defineConfig({
             'lang/**',
             '.mcp.json',
             'AGENTS.md',
-            'README.md',
+            'README*.md',
             'composer.json',
             'resources/js/components/ui/*',
             'resources/views/mail/*',

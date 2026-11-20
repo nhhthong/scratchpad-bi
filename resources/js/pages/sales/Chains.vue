@@ -3,100 +3,95 @@ import { Head } from '@inertiajs/vue3';
 import { computed, ref } from 'vue';
 import { useI18n } from 'vue-i18n';
 import AnimatedNumber from '@/components/shared/AnimatedNumber.vue';
-import TypewriterText from '@/components/shared/TypewriterText.vue';
 import MonthlySalesTable from '@/components/tables/MonthlySalesTable.vue';
 import ProductTargetTable from '@/components/tables/ProductTargetTable.vue';
+import SalesFilterBar from '@/components/tables/SalesFilterBar.vue';
+import SalesInsights from '@/components/tables/SalesInsights.vue';
 import { Badge } from '@/components/ui/badge';
-import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { useFormat } from '@/composables/useFormat';
-import { toneText, yoyTone } from '@/lib/semantic';
-import chainProducts from '@/mocks/chain-products.json';
-import chains from '@/mocks/chains.json';
+import { useMockSession } from '@/composables/useMockSession';
+import {
+    query,
+    useLevelGuard,
+    useSalesFilters,
+} from '@/composables/useSalesFilters';
+import { achievementTone, toneText } from '@/lib/semantic';
+import { level1 } from '@/mocks/salesCube';
+import { dashboard } from '@/routes';
 import { stores } from '@/routes/sales';
-import type { MonthlyFigure, ProductTargetRow, SalesRow } from '@/types';
 
 // Inertia passes shared props (errors, auth, locale…) that this page does not declare.
 defineOptions({ inheritAttrs: false });
 
+useLevelGuard(1);
+
 const { t } = useI18n();
-const { int, percent } = useFormat();
+const { amount, percent } = useFormat();
+const { current, access } = useMockSession();
+const { parsed, filters, change, reset } = useSalesFilters(dashboard().url);
 
 const tab = ref<'oem' | 'target'>('oem');
-const years = ['2026', '2025'] as const;
-const year = ref<(typeof years)[number]>('2026');
-const block = computed(() => chains.years[year.value]);
-
-type ChainRow = {
-    name: string;
-    qty: number | null;
-    amount: number | null;
-    share: number | null;
-    yoy: number | null;
-    monthly: MonthlyFigure[];
-};
-
-const toRow = (row: ChainRow): SalesRow => ({
-    key: row.name,
-    label: row.name,
-    qty: row.qty,
-    amount: row.amount,
-    share: row.share,
-    yoy: row.yoy,
-    monthly: row.monthly,
-});
-
-const rows = computed(() => block.value.rows.map(toRow));
-const total = computed<SalesRow>(() => ({
-    key: 'total',
-    label: block.value.total.name ?? '',
-    qty: block.value.total.qty,
-    amount: block.value.total.amount,
-    share: block.value.total.share,
-    yoy: null,
-    monthly: block.value.total.monthly,
+const data = computed(() => level1(current.value.scope, parsed.value));
+const total = computed(() => ({
+    ...data.value.total,
+    label: t('sales.columns.total'),
 }));
+const targetTotal = computed(() => ({
+    ...data.value.targets.total,
+    name: t('sales.columns.total'),
+}));
+const months2026 = Array.from(
+    { length: 12 },
+    (_, i) => `2026-${String(i + 1).padStart(2, '0')}`,
+);
 
-const kpis = computed(() => [
-    {
-        label: t('sales.kpi.qty'),
-        value: block.value.total.qty ?? 0,
-        format: (n: number) => int(Math.round(n)),
-    },
-    {
-        label: t('sales.kpi.amount'),
-        value: block.value.total.amount ?? 0,
-        format: (n: number) =>
-            `${int(Math.round(n))} ${t('sales.kpi.yenSuffix')}`,
-    },
-    {
-        label: t('sales.kpi.yoyQty'),
-        value: block.value.yoy.qty ?? 0,
-        format: (n: number) => percent(n),
-        tone: yoyTone(block.value.yoy.qty),
-    },
-    {
-        label: t('sales.kpi.yoyAmount'),
-        value: block.value.yoy.amount ?? 0,
-        format: (n: number) => percent(n),
-        tone: yoyTone(block.value.yoy.amount),
-    },
-]);
+// Drill down to the stores of a chain, keeping the period; only for users allowed to open level 2.
+const href = (row: { key: string }) =>
+    current.value.levels.includes(2)
+        ? `${stores().url}${query({
+              chain: row.key,
+              year: filters.value.year,
+              from: filters.value.from,
+              to: filters.value.to,
+          })}`
+        : null;
 
-const products = chainProducts.rows as ProductTargetRow[];
-const productsTotal = chainProducts.total as ProductTargetRow;
-const href = () => stores().url;
+const summary = computed(() => {
+    const s = data.value.targets.summary;
+
+    return [
+        {
+            label: t('bi.target.summaryTarget'),
+            value: s.targetAmount,
+            format: (n: number) => amount(n, 'yen'),
+            tone: undefined,
+        },
+        {
+            label: t('bi.target.summaryActual'),
+            value: s.actualAmount,
+            format: (n: number) => amount(n, 'yen'),
+            tone: undefined,
+        },
+        {
+            label: t('bi.target.summaryAchievement'),
+            value: s.achievement ?? 0,
+            format: (n: number) => percent(n),
+            tone: achievementTone(s.achievement),
+        },
+    ];
+});
 </script>
 
 <template>
     <Head :title="t('sales.chains.title')" />
 
-    <div class="flex h-full min-h-0 flex-col gap-4">
+    <div class="flex min-h-full flex-col gap-2">
         <div>
             <div class="flex items-center gap-2">
-                <h1 class="text-2xl font-semibold tracking-tight">
-                    <TypewriterText :text="t('sales.chains.title')" />
+                <h1 class="text-xl font-semibold tracking-tight">
+                    {{ t('sales.chains.title') }}
                 </h1>
                 <Badge variant="secondary">{{ t('sales.mock') }}</Badge>
             </div>
@@ -105,7 +100,7 @@ const href = () => stores().url;
             </p>
         </div>
 
-        <Tabs v-model="tab" class="min-h-0 flex-1 gap-4">
+        <Tabs v-model="tab" class="gap-2">
             <TabsList class="h-auto self-start">
                 <TabsTrigger value="oem" class="px-4 py-2">
                     <span class="flex flex-col items-start leading-tight">
@@ -129,80 +124,90 @@ const href = () => stores().url;
                 </TabsTrigger>
             </TabsList>
 
-            <TabsContent value="oem" class="flex min-h-0 flex-col gap-4">
-                <div class="flex items-center gap-2 self-end">
-                    <span class="text-sm text-muted-foreground">
-                        {{ t('sales.chains.year') }}
-                    </span>
-                    <Button
-                        v-for="y in years"
-                        :key="y"
-                        size="sm"
-                        :variant="year === y ? 'default' : 'outline'"
-                        @click="year = y"
-                    >
-                        {{ y }}
-                    </Button>
-                </div>
+            <TabsContent value="oem" class="flex flex-col gap-2">
+                <SalesFilterBar
+                    :filters="filters"
+                    :search-placeholder="t('bi.filter.searchChain')"
+                    @change="(patch) => change(patch)"
+                    @reset="reset({ year: filters.year })"
+                />
+                <SalesInsights
+                    :kpi="data.kpi"
+                    :chart="data.chart"
+                    :year="filters.year"
+                    :share-title="t('bi.chart.shareChain')"
+                />
 
-                <div class="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
+                <section class="flex flex-col gap-1.5">
+                    <h2 class="text-sm font-medium">
+                        {{ t('sales.chains.chainsSection') }} ({{
+                            filters.year
+                        }})
+                    </h2>
+                    <p
+                        v-if="!data.rows.length"
+                        class="rounded-lg border bg-card p-6 text-center text-sm text-muted-foreground"
+                    >
+                        {{ t('bi.empty') }}
+                    </p>
+                    <div v-else class="flex h-[72vh] min-h-72 flex-col">
+                        <MonthlySalesTable
+                            :months="data.months"
+                            :rows="data.rows"
+                            :total="total"
+                            :label-header="t('sales.columns.chain')"
+                            :row-href="href"
+                            :share-digits="2"
+                            :yoy-header="data.yoyHeader"
+                        />
+                    </div>
+                </section>
+            </TabsContent>
+
+            <TabsContent value="target" class="flex flex-col gap-2">
+                <div class="grid gap-2 sm:grid-cols-3">
                     <Card
-                        v-for="kpi in kpis"
-                        :key="kpi.label"
+                        v-for="s in summary"
+                        :key="s.label"
                         class="gap-2 py-4"
                     >
-                        <CardHeader class="px-5">
+                        <CardHeader class="px-3">
                             <CardTitle
-                                class="text-sm font-medium text-muted-foreground"
+                                class="text-[11px] font-normal text-muted-foreground"
                             >
-                                {{ kpi.label }}
+                                {{ s.label }}
                             </CardTitle>
                         </CardHeader>
-                        <CardContent class="px-5">
+                        <CardContent class="px-3">
                             <div
-                                class="text-2xl font-semibold tabular-nums"
-                                :class="
-                                    kpi.tone ? toneText[kpi.tone] : undefined
-                                "
+                                class="text-lg leading-tight font-semibold tabular-nums"
+                                :class="s.tone ? toneText[s.tone] : undefined"
                             >
                                 <AnimatedNumber
-                                    :value="kpi.value"
-                                    :format="kpi.format"
+                                    :value="s.value"
+                                    :format="s.format"
                                 />
                             </div>
                         </CardContent>
                     </Card>
                 </div>
-
-                <section class="flex flex-col gap-3">
-                    <h2 class="text-lg font-medium">
-                        {{ t('sales.chains.chainsSection') }} ({{ year }})
-                    </h2>
-                    <MonthlySalesTable
-                        :months="chains.months"
-                        :rows="rows"
-                        :total="total"
-                        :label-header="t('sales.columns.chain')"
-                        :row-href="href"
-                        :share-digits="2"
-                        :yoy-header="{
-                            qty: block.yoy.qty,
-                            amount: block.yoy.amount,
-                            monthly: block.monthlyYoy,
-                        }"
-                    />
-                </section>
-            </TabsContent>
-
-            <TabsContent value="target" class="flex min-h-0 flex-col gap-3">
-                <h2 class="text-lg font-medium">
+                <h2 class="text-sm font-medium">
                     {{ t('sales.chains.targetSection') }}
                 </h2>
-                <ProductTargetTable
-                    :months="chains.months"
-                    :total="productsTotal"
-                    :rows="products"
-                />
+                <p
+                    v-if="!access.canEditTargets"
+                    class="text-xs text-muted-foreground"
+                >
+                    {{ t('bi.target.readOnly') }}
+                </p>
+                <div class="flex h-[72vh] min-h-72 flex-col">
+                    <ProductTargetTable
+                        :months="months2026"
+                        :total="targetTotal"
+                        :rows="data.targets.rows"
+                        :readonly="!access.canEditTargets"
+                    />
+                </div>
             </TabsContent>
         </Tabs>
     </div>
